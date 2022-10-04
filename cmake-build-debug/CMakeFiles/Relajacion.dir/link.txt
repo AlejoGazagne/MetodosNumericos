@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Relajacion.dir/objects.a
+C:\mingw64\bin\ar.exe cr CMakeFiles\Relajacion.dir/objects.a @CMakeFiles\Relajacion.dir\objects1.rsp
+C:\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Relajacion.dir/objects.a -Wl,--no-whole-archive -o Relajacion.exe -Wl,--out-implib,libRelajacion.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Relajacion.dir\linklibs.rsp

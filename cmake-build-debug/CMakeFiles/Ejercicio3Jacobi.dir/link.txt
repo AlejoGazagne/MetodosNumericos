@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Ejercicio3Jacobi.dir/objects.a
+C:\mingw64\bin\ar.exe qc CMakeFiles\Ejercicio3Jacobi.dir/objects.a @CMakeFiles\Ejercicio3Jacobi.dir\objects1.rsp
+C:\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Ejercicio3Jacobi.dir/objects.a -Wl,--no-whole-archive -o Ejercicio3Jacobi.exe -Wl,--out-implib,libEjercicio3Jacobi.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Ejercicio3Jacobi.dir\linklibs.rsp

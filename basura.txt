@@ -1,0 +1,21 @@
+// NO ANDA ESTE METODO
+        /*for(int i = 0; i < filas; i++){
+            if(i == 0){
+                double suma = 0.;
+                for(int j = 0; j < filas; j++){
+                    suma = suma + m[i][j]*xv[j];
+                }
+                xn[i] = (m[i][columnas-1]-suma)/m[i][i];
+            }
+            double suma = 0.;
+            for(int j = 0; j < i-1; j++){
+                suma = suma + m[i][j]*xv[j];
+            }
+            for(int j = i+1; j < filas; j++){
+               suma = suma + m[i][j]*xv[j];
+            }
+            xn[i] = (m[i][columnas-1] - suma)/m[i][i];
+
+            error = error + pow(xn[i] - xv[i], 2);
+            xv[i] = xn[i];
+        }*/

@@ -1,0 +1,18 @@
+cmake_minimum_required(VERSION 3.20)
+project(Metodos_Numericos)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(Biseccion Biseccion.cpp)
+add_executable(Falsi Falsi.cpp)
+add_executable(Newton_Raphson Newton_Raphson.cpp)
+add_executable(PuntoFijo PuntoFijo.cpp)
+add_executable(Secante Secante.cpp)
+add_executable(Gaus Gaus.cpp)
+add_executable(Jacobi Jacobi.cpp)
+add_executable(Gaus-Seidel Gaus-Seidel.cpp)
+add_executable(Ejercicio3Jacobi Ejercicio3Jacobi.cpp)
+add_executable(RelajacionGaus-Seidel RelajacionGaus-Seidel.cpp)
+add_executable(InterpolacionLagrange InterpolacionLagrange.cpp)
+add_executable(RegresionPolinomial RegresionPolinomial.cpp)
+add_executable(InterpolacionSegmentaria InterpolacionSegmentaria.cpp)

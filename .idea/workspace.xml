@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader"><![CDATA[{
+  "useNewFormat": true
+}]]></component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="Metodos_Numericos" targetName="PuntoFijo" />
+      <config projectName="Metodos_Numericos" targetName="Ejercicio3Jacobi" />
+      <config projectName="Metodos_Numericos" targetName="Falsi" />
+      <config projectName="Metodos_Numericos" targetName="Metodos_Numericos" />
+      <config projectName="Metodos_Numericos" targetName="Jacobi" />
+      <config projectName="Metodos_Numericos" targetName="Gaus-Seidel" />
+      <config projectName="Metodos_Numericos" targetName="RelajacionGaus-Seidel" />
+      <config projectName="Metodos_Numericos" targetName="Biseccion" />
+      <config projectName="Metodos_Numericos" targetName="Gaus" />
+      <config projectName="Metodos_Numericos" targetName="RegresionPolinomial" />
+      <config projectName="Metodos_Numericos" targetName="Secante" />
+      <config projectName="Metodos_Numericos" targetName="InterpolacionSegmentaria" />
+      <config projectName="Metodos_Numericos" targetName="InterpolacionLagrange" />
+      <config projectName="Metodos_Numericos" targetName="Newton_Raphson" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b05f6f34-c7ba-4894-ba3b-f9972127bb9f" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
+  <component name="ProjectId" id="2EEkQuXUhcpbqlwGDu5w6DhsDYz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="RunManager" selected="CMake Application.InterpolacionSegmentaria">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Biseccion" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Metodos_Numericos" TARGET_NAME="Biseccion" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Metodos_Numericos" RUN_TARGET_NAME="Biseccion">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ejercicio3Jacobi" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Metodos_Numericos" TARGET_NAME="Ejercicio3Jacobi" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Metodos_Numericos" RUN_TARGET_NAME="Ejercicio3Jacobi">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Falsi" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Metodos_Numericos" TARGET_NAME="Falsi" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Metodos_Numericos" RUN_TARGET_NAME="Falsi">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Gaus-Seidel" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Metodos_Numericos" TARGET_NAME="Gaus-Seidel" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Metodos_Numericos" RUN_TARGET_NAME="Gaus-Seidel">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Gaus" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Metodos_Numericos" TARGET_NAME="Gaus" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Metodos_Numericos" RUN_TARGET_NAME="Gaus">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InterpolacionLagrange" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Metodos_Numericos" TARGET_NAME="InterpolacionLagrange" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Metodos_Numericos" RUN_TARGET_NAME="InterpolacionLagrange">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InterpolacionSegmentaria" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Metodos_Numericos" TARGET_NAME="InterpolacionSegmentaria" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Metodos_Numericos" RUN_TARGET_NAME="InterpolacionSegmentaria">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Jacobi" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Metodos_Numericos" TARGET_NAME="Jacobi" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Metodos_Numericos" RUN_TARGET_NAME="Jacobi">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Newton_Raphson" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Metodos_Numericos" TARGET_NAME="Newton_Raphson" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Metodos_Numericos" RUN_TARGET_NAME="Newton_Raphson">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PuntoFijo" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Metodos_Numericos" TARGET_NAME="PuntoFijo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Metodos_Numericos" RUN_TARGET_NAME="PuntoFijo">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegresionPolinomial" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Metodos_Numericos" TARGET_NAME="RegresionPolinomial" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Metodos_Numericos" RUN_TARGET_NAME="RegresionPolinomial">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RelajacionGaus-Seidel" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Metodos_Numericos" TARGET_NAME="RelajacionGaus-Seidel" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Metodos_Numericos" RUN_TARGET_NAME="RelajacionGaus-Seidel">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Secante" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Metodos_Numericos" TARGET_NAME="Secante" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Metodos_Numericos" RUN_TARGET_NAME="Secante">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.Biseccion" />
+      <item itemvalue="CMake Application.Ejercicio3Jacobi" />
+      <item itemvalue="CMake Application.Falsi" />
+      <item itemvalue="CMake Application.Gaus" />
+      <item itemvalue="CMake Application.Gaus-Seidel" />
+      <item itemvalue="CMake Application.InterpolacionLagrange" />
+      <item itemvalue="CMake Application.InterpolacionSegmentaria" />
+      <item itemvalue="CMake Application.Jacobi" />
+      <item itemvalue="CMake Application.Newton_Raphson" />
+      <item itemvalue="CMake Application.PuntoFijo" />
+      <item itemvalue="CMake Application.RegresionPolinomial" />
+      <item itemvalue="CMake Application.RelajacionGaus-Seidel" />
+      <item itemvalue="CMake Application.Secante" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b05f6f34-c7ba-4894-ba3b-f9972127bb9f" name="Changes" comment="" />
+      <created>1662168118968</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662168118968</updated>
+      <workItem from="1662168121875" duration="1024000" />
+      <workItem from="1662327863786" duration="28000" />
+      <workItem from="1662328744638" duration="1935000" />
+      <workItem from="1662330741290" duration="11912000" />
+      <workItem from="1663105050379" duration="2157000" />
+      <workItem from="1663500575220" duration="8383000" />
+      <workItem from="1663516164201" duration="2094000" />
+      <workItem from="1663967954697" duration="3000" />
+      <workItem from="1663968602796" duration="6703000" />
+      <workItem from="1664027197442" duration="6408000" />
+      <workItem from="1664057904416" duration="2553000" />
+      <workItem from="1664060718803" duration="9653000" />
+      <workItem from="1664107275846" duration="2056000" />
+      <workItem from="1664109732558" duration="5933000" />
+      <workItem from="1664116270720" duration="28855000" />
+      <workItem from="1664921269466" duration="4645000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

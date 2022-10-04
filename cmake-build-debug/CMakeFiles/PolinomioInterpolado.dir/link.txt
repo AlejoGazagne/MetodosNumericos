@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\PolinomioInterpolado.dir/objects.a
+C:\mingw64\bin\ar.exe cr CMakeFiles\PolinomioInterpolado.dir/objects.a @CMakeFiles\PolinomioInterpolado.dir\objects1.rsp
+C:\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\PolinomioInterpolado.dir/objects.a -Wl,--no-whole-archive -o PolinomioInterpolado.exe -Wl,--out-implib,libPolinomioInterpolado.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\PolinomioInterpolado.dir\linklibs.rsp

@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Secante.dir/objects.a
+C:\mingw64\bin\ar.exe qc CMakeFiles\Secante.dir/objects.a @CMakeFiles\Secante.dir\objects1.rsp
+C:\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Secante.dir/objects.a -Wl,--no-whole-archive -o Secante.exe -Wl,--out-implib,libSecante.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Secante.dir\linklibs.rsp

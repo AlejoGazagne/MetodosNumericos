@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Metodos_Numericos.dir/objects.a
+C:\mingw64\bin\ar.exe cr CMakeFiles\Metodos_Numericos.dir/objects.a @CMakeFiles\Metodos_Numericos.dir\objects1.rsp
+C:\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Metodos_Numericos.dir/objects.a -Wl,--no-whole-archive -o Metodos_Numericos.exe -Wl,--out-implib,libMetodos_Numericos.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Metodos_Numericos.dir\linklibs.rsp
