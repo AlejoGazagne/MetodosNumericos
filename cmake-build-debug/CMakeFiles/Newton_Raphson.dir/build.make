@@ -65,27 +65,27 @@ include CMakeFiles/Newton_Raphson.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Newton_Raphson.dir/flags.make
 
-CMakeFiles/Newton_Raphson.dir/Newton_Raphson.cpp.obj: CMakeFiles/Newton_Raphson.dir/flags.make
-CMakeFiles/Newton_Raphson.dir/Newton_Raphson.cpp.obj: ../Newton_Raphson.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Newton_Raphson.dir/Newton_Raphson.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Newton_Raphson.dir\Newton_Raphson.cpp.obj -c "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\Newton_Raphson.cpp"
+CMakeFiles/Newton_Raphson.dir/Raices/Newton_Raphson.cpp.obj: CMakeFiles/Newton_Raphson.dir/flags.make
+CMakeFiles/Newton_Raphson.dir/Raices/Newton_Raphson.cpp.obj: ../Raices/Newton_Raphson.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Newton_Raphson.dir/Raices/Newton_Raphson.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Newton_Raphson.dir\Raices\Newton_Raphson.cpp.obj -c "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\Raices\Newton_Raphson.cpp"
 
-CMakeFiles/Newton_Raphson.dir/Newton_Raphson.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Newton_Raphson.dir/Newton_Raphson.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\Newton_Raphson.cpp" > CMakeFiles\Newton_Raphson.dir\Newton_Raphson.cpp.i
+CMakeFiles/Newton_Raphson.dir/Raices/Newton_Raphson.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Newton_Raphson.dir/Raices/Newton_Raphson.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\Raices\Newton_Raphson.cpp" > CMakeFiles\Newton_Raphson.dir\Raices\Newton_Raphson.cpp.i
 
-CMakeFiles/Newton_Raphson.dir/Newton_Raphson.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Newton_Raphson.dir/Newton_Raphson.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\Newton_Raphson.cpp" -o CMakeFiles\Newton_Raphson.dir\Newton_Raphson.cpp.s
+CMakeFiles/Newton_Raphson.dir/Raices/Newton_Raphson.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Newton_Raphson.dir/Raices/Newton_Raphson.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\Raices\Newton_Raphson.cpp" -o CMakeFiles\Newton_Raphson.dir\Raices\Newton_Raphson.cpp.s
 
 # Object files for target Newton_Raphson
 Newton_Raphson_OBJECTS = \
-"CMakeFiles/Newton_Raphson.dir/Newton_Raphson.cpp.obj"
+"CMakeFiles/Newton_Raphson.dir/Raices/Newton_Raphson.cpp.obj"
 
 # External object files for target Newton_Raphson
 Newton_Raphson_EXTERNAL_OBJECTS =
 
-Newton_Raphson.exe: CMakeFiles/Newton_Raphson.dir/Newton_Raphson.cpp.obj
+Newton_Raphson.exe: CMakeFiles/Newton_Raphson.dir/Raices/Newton_Raphson.cpp.obj
 Newton_Raphson.exe: CMakeFiles/Newton_Raphson.dir/build.make
 Newton_Raphson.exe: CMakeFiles/Newton_Raphson.dir/linklibs.rsp
 Newton_Raphson.exe: CMakeFiles/Newton_Raphson.dir/objects1.rsp

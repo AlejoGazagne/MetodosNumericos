@@ -65,27 +65,27 @@ include CMakeFiles/RegresionPolinomial.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/RegresionPolinomial.dir/flags.make
 
-CMakeFiles/RegresionPolinomial.dir/RegresionPolinomial.cpp.obj: CMakeFiles/RegresionPolinomial.dir/flags.make
-CMakeFiles/RegresionPolinomial.dir/RegresionPolinomial.cpp.obj: ../RegresionPolinomial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RegresionPolinomial.dir/RegresionPolinomial.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RegresionPolinomial.dir\RegresionPolinomial.cpp.obj -c "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\RegresionPolinomial.cpp"
+CMakeFiles/RegresionPolinomial.dir/Regresion/RegresionPolinomial.cpp.obj: CMakeFiles/RegresionPolinomial.dir/flags.make
+CMakeFiles/RegresionPolinomial.dir/Regresion/RegresionPolinomial.cpp.obj: ../Regresion/RegresionPolinomial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RegresionPolinomial.dir/Regresion/RegresionPolinomial.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RegresionPolinomial.dir\Regresion\RegresionPolinomial.cpp.obj -c "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\Regresion\RegresionPolinomial.cpp"
 
-CMakeFiles/RegresionPolinomial.dir/RegresionPolinomial.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RegresionPolinomial.dir/RegresionPolinomial.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\RegresionPolinomial.cpp" > CMakeFiles\RegresionPolinomial.dir\RegresionPolinomial.cpp.i
+CMakeFiles/RegresionPolinomial.dir/Regresion/RegresionPolinomial.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RegresionPolinomial.dir/Regresion/RegresionPolinomial.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\Regresion\RegresionPolinomial.cpp" > CMakeFiles\RegresionPolinomial.dir\Regresion\RegresionPolinomial.cpp.i
 
-CMakeFiles/RegresionPolinomial.dir/RegresionPolinomial.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RegresionPolinomial.dir/RegresionPolinomial.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\RegresionPolinomial.cpp" -o CMakeFiles\RegresionPolinomial.dir\RegresionPolinomial.cpp.s
+CMakeFiles/RegresionPolinomial.dir/Regresion/RegresionPolinomial.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RegresionPolinomial.dir/Regresion/RegresionPolinomial.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\Regresion\RegresionPolinomial.cpp" -o CMakeFiles\RegresionPolinomial.dir\Regresion\RegresionPolinomial.cpp.s
 
 # Object files for target RegresionPolinomial
 RegresionPolinomial_OBJECTS = \
-"CMakeFiles/RegresionPolinomial.dir/RegresionPolinomial.cpp.obj"
+"CMakeFiles/RegresionPolinomial.dir/Regresion/RegresionPolinomial.cpp.obj"
 
 # External object files for target RegresionPolinomial
 RegresionPolinomial_EXTERNAL_OBJECTS =
 
-RegresionPolinomial.exe: CMakeFiles/RegresionPolinomial.dir/RegresionPolinomial.cpp.obj
+RegresionPolinomial.exe: CMakeFiles/RegresionPolinomial.dir/Regresion/RegresionPolinomial.cpp.obj
 RegresionPolinomial.exe: CMakeFiles/RegresionPolinomial.dir/build.make
 RegresionPolinomial.exe: CMakeFiles/RegresionPolinomial.dir/linklibs.rsp
 RegresionPolinomial.exe: CMakeFiles/RegresionPolinomial.dir/objects1.rsp

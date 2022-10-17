@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Gaus-Seidel.dir/Gaus-Seidel.cpp.obj"
+  "CMakeFiles/Gaus-Seidel.dir/SistemaDeEcuaciones/Gaus-Seidel.cpp.obj"
   "Gaus-Seidel.exe"
   "Gaus-Seidel.exe.manifest"
   "Gaus-Seidel.pdb"

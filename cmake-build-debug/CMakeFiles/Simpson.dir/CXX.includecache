@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/Integracion/Simpson.cpp
+cstdio
+-
+climits
+-
+cfloat
+-
+cmath
+-
+iostream
+-
+

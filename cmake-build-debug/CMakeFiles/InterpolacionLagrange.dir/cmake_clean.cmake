@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/InterpolacionLagrange.dir/InterpolacionLagrange.cpp.obj"
+  "CMakeFiles/InterpolacionLagrange.dir/Interpolacion/InterpolacionLagrange.cpp.obj"
   "InterpolacionLagrange.exe"
   "InterpolacionLagrange.exe.manifest"
   "InterpolacionLagrange.pdb"

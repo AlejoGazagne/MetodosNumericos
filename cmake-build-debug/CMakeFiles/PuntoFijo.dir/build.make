@@ -65,27 +65,27 @@ include CMakeFiles/PuntoFijo.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/PuntoFijo.dir/flags.make
 
-CMakeFiles/PuntoFijo.dir/PuntoFijo.cpp.obj: CMakeFiles/PuntoFijo.dir/flags.make
-CMakeFiles/PuntoFijo.dir/PuntoFijo.cpp.obj: ../PuntoFijo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PuntoFijo.dir/PuntoFijo.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PuntoFijo.dir\PuntoFijo.cpp.obj -c "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\PuntoFijo.cpp"
+CMakeFiles/PuntoFijo.dir/Raices/PuntoFijo.cpp.obj: CMakeFiles/PuntoFijo.dir/flags.make
+CMakeFiles/PuntoFijo.dir/Raices/PuntoFijo.cpp.obj: ../Raices/PuntoFijo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PuntoFijo.dir/Raices/PuntoFijo.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PuntoFijo.dir\Raices\PuntoFijo.cpp.obj -c "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\Raices\PuntoFijo.cpp"
 
-CMakeFiles/PuntoFijo.dir/PuntoFijo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PuntoFijo.dir/PuntoFijo.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\PuntoFijo.cpp" > CMakeFiles\PuntoFijo.dir\PuntoFijo.cpp.i
+CMakeFiles/PuntoFijo.dir/Raices/PuntoFijo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PuntoFijo.dir/Raices/PuntoFijo.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\Raices\PuntoFijo.cpp" > CMakeFiles\PuntoFijo.dir\Raices\PuntoFijo.cpp.i
 
-CMakeFiles/PuntoFijo.dir/PuntoFijo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PuntoFijo.dir/PuntoFijo.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\PuntoFijo.cpp" -o CMakeFiles\PuntoFijo.dir\PuntoFijo.cpp.s
+CMakeFiles/PuntoFijo.dir/Raices/PuntoFijo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PuntoFijo.dir/Raices/PuntoFijo.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\Raices\PuntoFijo.cpp" -o CMakeFiles\PuntoFijo.dir\Raices\PuntoFijo.cpp.s
 
 # Object files for target PuntoFijo
 PuntoFijo_OBJECTS = \
-"CMakeFiles/PuntoFijo.dir/PuntoFijo.cpp.obj"
+"CMakeFiles/PuntoFijo.dir/Raices/PuntoFijo.cpp.obj"
 
 # External object files for target PuntoFijo
 PuntoFijo_EXTERNAL_OBJECTS =
 
-PuntoFijo.exe: CMakeFiles/PuntoFijo.dir/PuntoFijo.cpp.obj
+PuntoFijo.exe: CMakeFiles/PuntoFijo.dir/Raices/PuntoFijo.cpp.obj
 PuntoFijo.exe: CMakeFiles/PuntoFijo.dir/build.make
 PuntoFijo.exe: CMakeFiles/PuntoFijo.dir/linklibs.rsp
 PuntoFijo.exe: CMakeFiles/PuntoFijo.dir/objects1.rsp

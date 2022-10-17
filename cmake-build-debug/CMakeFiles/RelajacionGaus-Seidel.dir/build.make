@@ -65,27 +65,27 @@ include CMakeFiles/RelajacionGaus-Seidel.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/RelajacionGaus-Seidel.dir/flags.make
 
-CMakeFiles/RelajacionGaus-Seidel.dir/RelajacionGaus-Seidel.cpp.obj: CMakeFiles/RelajacionGaus-Seidel.dir/flags.make
-CMakeFiles/RelajacionGaus-Seidel.dir/RelajacionGaus-Seidel.cpp.obj: ../RelajacionGaus-Seidel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RelajacionGaus-Seidel.dir/RelajacionGaus-Seidel.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RelajacionGaus-Seidel.dir\RelajacionGaus-Seidel.cpp.obj -c "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\RelajacionGaus-Seidel.cpp"
+CMakeFiles/RelajacionGaus-Seidel.dir/SistemaDeEcuaciones/RelajacionGaus-Seidel.cpp.obj: CMakeFiles/RelajacionGaus-Seidel.dir/flags.make
+CMakeFiles/RelajacionGaus-Seidel.dir/SistemaDeEcuaciones/RelajacionGaus-Seidel.cpp.obj: ../SistemaDeEcuaciones/RelajacionGaus-Seidel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RelajacionGaus-Seidel.dir/SistemaDeEcuaciones/RelajacionGaus-Seidel.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RelajacionGaus-Seidel.dir\SistemaDeEcuaciones\RelajacionGaus-Seidel.cpp.obj -c "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\SistemaDeEcuaciones\RelajacionGaus-Seidel.cpp"
 
-CMakeFiles/RelajacionGaus-Seidel.dir/RelajacionGaus-Seidel.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RelajacionGaus-Seidel.dir/RelajacionGaus-Seidel.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\RelajacionGaus-Seidel.cpp" > CMakeFiles\RelajacionGaus-Seidel.dir\RelajacionGaus-Seidel.cpp.i
+CMakeFiles/RelajacionGaus-Seidel.dir/SistemaDeEcuaciones/RelajacionGaus-Seidel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RelajacionGaus-Seidel.dir/SistemaDeEcuaciones/RelajacionGaus-Seidel.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\SistemaDeEcuaciones\RelajacionGaus-Seidel.cpp" > CMakeFiles\RelajacionGaus-Seidel.dir\SistemaDeEcuaciones\RelajacionGaus-Seidel.cpp.i
 
-CMakeFiles/RelajacionGaus-Seidel.dir/RelajacionGaus-Seidel.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RelajacionGaus-Seidel.dir/RelajacionGaus-Seidel.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\RelajacionGaus-Seidel.cpp" -o CMakeFiles\RelajacionGaus-Seidel.dir\RelajacionGaus-Seidel.cpp.s
+CMakeFiles/RelajacionGaus-Seidel.dir/SistemaDeEcuaciones/RelajacionGaus-Seidel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RelajacionGaus-Seidel.dir/SistemaDeEcuaciones/RelajacionGaus-Seidel.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\SistemaDeEcuaciones\RelajacionGaus-Seidel.cpp" -o CMakeFiles\RelajacionGaus-Seidel.dir\SistemaDeEcuaciones\RelajacionGaus-Seidel.cpp.s
 
 # Object files for target RelajacionGaus-Seidel
 RelajacionGaus__Seidel_OBJECTS = \
-"CMakeFiles/RelajacionGaus-Seidel.dir/RelajacionGaus-Seidel.cpp.obj"
+"CMakeFiles/RelajacionGaus-Seidel.dir/SistemaDeEcuaciones/RelajacionGaus-Seidel.cpp.obj"
 
 # External object files for target RelajacionGaus-Seidel
 RelajacionGaus__Seidel_EXTERNAL_OBJECTS =
 
-RelajacionGaus-Seidel.exe: CMakeFiles/RelajacionGaus-Seidel.dir/RelajacionGaus-Seidel.cpp.obj
+RelajacionGaus-Seidel.exe: CMakeFiles/RelajacionGaus-Seidel.dir/SistemaDeEcuaciones/RelajacionGaus-Seidel.cpp.obj
 RelajacionGaus-Seidel.exe: CMakeFiles/RelajacionGaus-Seidel.dir/build.make
 RelajacionGaus-Seidel.exe: CMakeFiles/RelajacionGaus-Seidel.dir/linklibs.rsp
 RelajacionGaus-Seidel.exe: CMakeFiles/RelajacionGaus-Seidel.dir/objects1.rsp

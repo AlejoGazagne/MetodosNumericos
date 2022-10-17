@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/PuntoFijo.dir/PuntoFijo.cpp.obj"
+  "CMakeFiles/PuntoFijo.dir/Raices/PuntoFijo.cpp.obj"
   "PuntoFijo.exe"
   "PuntoFijo.exe.manifest"
   "PuntoFijo.pdb"

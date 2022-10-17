@@ -65,27 +65,27 @@ include CMakeFiles/Gaus-Seidel.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Gaus-Seidel.dir/flags.make
 
-CMakeFiles/Gaus-Seidel.dir/Gaus-Seidel.cpp.obj: CMakeFiles/Gaus-Seidel.dir/flags.make
-CMakeFiles/Gaus-Seidel.dir/Gaus-Seidel.cpp.obj: ../Gaus-Seidel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Gaus-Seidel.dir/Gaus-Seidel.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Gaus-Seidel.dir\Gaus-Seidel.cpp.obj -c "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\Gaus-Seidel.cpp"
+CMakeFiles/Gaus-Seidel.dir/SistemaDeEcuaciones/Gaus-Seidel.cpp.obj: CMakeFiles/Gaus-Seidel.dir/flags.make
+CMakeFiles/Gaus-Seidel.dir/SistemaDeEcuaciones/Gaus-Seidel.cpp.obj: ../SistemaDeEcuaciones/Gaus-Seidel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Gaus-Seidel.dir/SistemaDeEcuaciones/Gaus-Seidel.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Gaus-Seidel.dir\SistemaDeEcuaciones\Gaus-Seidel.cpp.obj -c "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\SistemaDeEcuaciones\Gaus-Seidel.cpp"
 
-CMakeFiles/Gaus-Seidel.dir/Gaus-Seidel.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gaus-Seidel.dir/Gaus-Seidel.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\Gaus-Seidel.cpp" > CMakeFiles\Gaus-Seidel.dir\Gaus-Seidel.cpp.i
+CMakeFiles/Gaus-Seidel.dir/SistemaDeEcuaciones/Gaus-Seidel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gaus-Seidel.dir/SistemaDeEcuaciones/Gaus-Seidel.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\SistemaDeEcuaciones\Gaus-Seidel.cpp" > CMakeFiles\Gaus-Seidel.dir\SistemaDeEcuaciones\Gaus-Seidel.cpp.i
 
-CMakeFiles/Gaus-Seidel.dir/Gaus-Seidel.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gaus-Seidel.dir/Gaus-Seidel.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\Gaus-Seidel.cpp" -o CMakeFiles\Gaus-Seidel.dir\Gaus-Seidel.cpp.s
+CMakeFiles/Gaus-Seidel.dir/SistemaDeEcuaciones/Gaus-Seidel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gaus-Seidel.dir/SistemaDeEcuaciones/Gaus-Seidel.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\SistemaDeEcuaciones\Gaus-Seidel.cpp" -o CMakeFiles\Gaus-Seidel.dir\SistemaDeEcuaciones\Gaus-Seidel.cpp.s
 
 # Object files for target Gaus-Seidel
 Gaus__Seidel_OBJECTS = \
-"CMakeFiles/Gaus-Seidel.dir/Gaus-Seidel.cpp.obj"
+"CMakeFiles/Gaus-Seidel.dir/SistemaDeEcuaciones/Gaus-Seidel.cpp.obj"
 
 # External object files for target Gaus-Seidel
 Gaus__Seidel_EXTERNAL_OBJECTS =
 
-Gaus-Seidel.exe: CMakeFiles/Gaus-Seidel.dir/Gaus-Seidel.cpp.obj
+Gaus-Seidel.exe: CMakeFiles/Gaus-Seidel.dir/SistemaDeEcuaciones/Gaus-Seidel.cpp.obj
 Gaus-Seidel.exe: CMakeFiles/Gaus-Seidel.dir/build.make
 Gaus-Seidel.exe: CMakeFiles/Gaus-Seidel.dir/linklibs.rsp
 Gaus-Seidel.exe: CMakeFiles/Gaus-Seidel.dir/objects1.rsp

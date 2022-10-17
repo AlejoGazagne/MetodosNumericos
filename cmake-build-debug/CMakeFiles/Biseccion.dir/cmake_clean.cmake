@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "Biseccion.exe"
   "Biseccion.exe.manifest"
   "Biseccion.pdb"
-  "CMakeFiles/Biseccion.dir/Biseccion.cpp.obj"
+  "CMakeFiles/Biseccion.dir/Raices/Biseccion.cpp.obj"
   "libBiseccion.dll.a"
 )
 

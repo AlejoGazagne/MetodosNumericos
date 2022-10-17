@@ -65,27 +65,27 @@ include CMakeFiles/Secante.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Secante.dir/flags.make
 
-CMakeFiles/Secante.dir/Secante.cpp.obj: CMakeFiles/Secante.dir/flags.make
-CMakeFiles/Secante.dir/Secante.cpp.obj: ../Secante.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Secante.dir/Secante.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Secante.dir\Secante.cpp.obj -c "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\Secante.cpp"
+CMakeFiles/Secante.dir/Raices/Secante.cpp.obj: CMakeFiles/Secante.dir/flags.make
+CMakeFiles/Secante.dir/Raices/Secante.cpp.obj: ../Raices/Secante.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Secante.dir/Raices/Secante.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Secante.dir\Raices\Secante.cpp.obj -c "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\Raices\Secante.cpp"
 
-CMakeFiles/Secante.dir/Secante.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Secante.dir/Secante.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\Secante.cpp" > CMakeFiles\Secante.dir\Secante.cpp.i
+CMakeFiles/Secante.dir/Raices/Secante.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Secante.dir/Raices/Secante.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\Raices\Secante.cpp" > CMakeFiles\Secante.dir\Raices\Secante.cpp.i
 
-CMakeFiles/Secante.dir/Secante.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Secante.dir/Secante.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\Secante.cpp" -o CMakeFiles\Secante.dir\Secante.cpp.s
+CMakeFiles/Secante.dir/Raices/Secante.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Secante.dir/Raices/Secante.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\Raices\Secante.cpp" -o CMakeFiles\Secante.dir\Raices\Secante.cpp.s
 
 # Object files for target Secante
 Secante_OBJECTS = \
-"CMakeFiles/Secante.dir/Secante.cpp.obj"
+"CMakeFiles/Secante.dir/Raices/Secante.cpp.obj"
 
 # External object files for target Secante
 Secante_EXTERNAL_OBJECTS =
 
-Secante.exe: CMakeFiles/Secante.dir/Secante.cpp.obj
+Secante.exe: CMakeFiles/Secante.dir/Raices/Secante.cpp.obj
 Secante.exe: CMakeFiles/Secante.dir/build.make
 Secante.exe: CMakeFiles/Secante.dir/linklibs.rsp
 Secante.exe: CMakeFiles/Secante.dir/objects1.rsp

@@ -75,6 +75,9 @@ all: CMakeFiles/RelajacionGaus-Seidel.dir/all
 all: CMakeFiles/InterpolacionLagrange.dir/all
 all: CMakeFiles/RegresionPolinomial.dir/all
 all: CMakeFiles/InterpolacionSegmentaria.dir/all
+all: CMakeFiles/Trapecio.dir/all
+all: CMakeFiles/Simpson.dir/all
+all: CMakeFiles/Gauss-Legendre.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -95,6 +98,9 @@ clean: CMakeFiles/RelajacionGaus-Seidel.dir/clean
 clean: CMakeFiles/InterpolacionLagrange.dir/clean
 clean: CMakeFiles/RegresionPolinomial.dir/clean
 clean: CMakeFiles/InterpolacionSegmentaria.dir/clean
+clean: CMakeFiles/Trapecio.dir/clean
+clean: CMakeFiles/Simpson.dir/clean
+clean: CMakeFiles/Gauss-Legendre.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -156,7 +162,7 @@ CMakeFiles/Falsi.dir/clean:
 CMakeFiles/Newton_Raphson.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Newton_Raphson.dir\build.make CMakeFiles/Newton_Raphson.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Newton_Raphson.dir\build.make CMakeFiles/Newton_Raphson.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\cmake-build-debug\CMakeFiles" --progress-num=17,18 "Built target Newton_Raphson"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\cmake-build-debug\CMakeFiles" --progress-num=19,20 "Built target Newton_Raphson"
 .PHONY : CMakeFiles/Newton_Raphson.dir/all
 
 # Build rule for subdir invocation for target.
@@ -182,7 +188,7 @@ CMakeFiles/Newton_Raphson.dir/clean:
 CMakeFiles/PuntoFijo.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PuntoFijo.dir\build.make CMakeFiles/PuntoFijo.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PuntoFijo.dir\build.make CMakeFiles/PuntoFijo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\cmake-build-debug\CMakeFiles" --progress-num=19,20 "Built target PuntoFijo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\cmake-build-debug\CMakeFiles" --progress-num=21,22 "Built target PuntoFijo"
 .PHONY : CMakeFiles/PuntoFijo.dir/all
 
 # Build rule for subdir invocation for target.
@@ -208,7 +214,7 @@ CMakeFiles/PuntoFijo.dir/clean:
 CMakeFiles/Secante.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Secante.dir\build.make CMakeFiles/Secante.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Secante.dir\build.make CMakeFiles/Secante.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\cmake-build-debug\CMakeFiles" --progress-num=25,26 "Built target Secante"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\cmake-build-debug\CMakeFiles" --progress-num=27,28 "Built target Secante"
 .PHONY : CMakeFiles/Secante.dir/all
 
 # Build rule for subdir invocation for target.
@@ -260,7 +266,7 @@ CMakeFiles/Gaus.dir/clean:
 CMakeFiles/Jacobi.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Jacobi.dir\build.make CMakeFiles/Jacobi.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Jacobi.dir\build.make CMakeFiles/Jacobi.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\cmake-build-debug\CMakeFiles" --progress-num=15,16 "Built target Jacobi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\cmake-build-debug\CMakeFiles" --progress-num=17,18 "Built target Jacobi"
 .PHONY : CMakeFiles/Jacobi.dir/all
 
 # Build rule for subdir invocation for target.
@@ -338,7 +344,7 @@ CMakeFiles/Ejercicio3Jacobi.dir/clean:
 CMakeFiles/RelajacionGaus-Seidel.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RelajacionGaus-Seidel.dir\build.make CMakeFiles/RelajacionGaus-Seidel.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RelajacionGaus-Seidel.dir\build.make CMakeFiles/RelajacionGaus-Seidel.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\cmake-build-debug\CMakeFiles" --progress-num=23,24 "Built target RelajacionGaus-Seidel"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\cmake-build-debug\CMakeFiles" --progress-num=25,26 "Built target RelajacionGaus-Seidel"
 .PHONY : CMakeFiles/RelajacionGaus-Seidel.dir/all
 
 # Build rule for subdir invocation for target.
@@ -364,7 +370,7 @@ CMakeFiles/RelajacionGaus-Seidel.dir/clean:
 CMakeFiles/InterpolacionLagrange.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterpolacionLagrange.dir\build.make CMakeFiles/InterpolacionLagrange.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterpolacionLagrange.dir\build.make CMakeFiles/InterpolacionLagrange.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\cmake-build-debug\CMakeFiles" --progress-num=11,12 "Built target InterpolacionLagrange"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\cmake-build-debug\CMakeFiles" --progress-num=13,14 "Built target InterpolacionLagrange"
 .PHONY : CMakeFiles/InterpolacionLagrange.dir/all
 
 # Build rule for subdir invocation for target.
@@ -390,7 +396,7 @@ CMakeFiles/InterpolacionLagrange.dir/clean:
 CMakeFiles/RegresionPolinomial.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RegresionPolinomial.dir\build.make CMakeFiles/RegresionPolinomial.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RegresionPolinomial.dir\build.make CMakeFiles/RegresionPolinomial.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\cmake-build-debug\CMakeFiles" --progress-num=21,22 "Built target RegresionPolinomial"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\cmake-build-debug\CMakeFiles" --progress-num=23,24 "Built target RegresionPolinomial"
 .PHONY : CMakeFiles/RegresionPolinomial.dir/all
 
 # Build rule for subdir invocation for target.
@@ -416,7 +422,7 @@ CMakeFiles/RegresionPolinomial.dir/clean:
 CMakeFiles/InterpolacionSegmentaria.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterpolacionSegmentaria.dir\build.make CMakeFiles/InterpolacionSegmentaria.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterpolacionSegmentaria.dir\build.make CMakeFiles/InterpolacionSegmentaria.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\cmake-build-debug\CMakeFiles" --progress-num=13,14 "Built target InterpolacionSegmentaria"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\cmake-build-debug\CMakeFiles" --progress-num=15,16 "Built target InterpolacionSegmentaria"
 .PHONY : CMakeFiles/InterpolacionSegmentaria.dir/all
 
 # Build rule for subdir invocation for target.
@@ -434,6 +440,84 @@ InterpolacionSegmentaria: CMakeFiles/InterpolacionSegmentaria.dir/rule
 CMakeFiles/InterpolacionSegmentaria.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterpolacionSegmentaria.dir\build.make CMakeFiles/InterpolacionSegmentaria.dir/clean
 .PHONY : CMakeFiles/InterpolacionSegmentaria.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Trapecio.dir
+
+# All Build rule for target.
+CMakeFiles/Trapecio.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Trapecio.dir\build.make CMakeFiles/Trapecio.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Trapecio.dir\build.make CMakeFiles/Trapecio.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\cmake-build-debug\CMakeFiles" --progress-num=31,32 "Built target Trapecio"
+.PHONY : CMakeFiles/Trapecio.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Trapecio.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Trapecio.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/Trapecio.dir/rule
+
+# Convenience name for target.
+Trapecio: CMakeFiles/Trapecio.dir/rule
+.PHONY : Trapecio
+
+# clean rule for target.
+CMakeFiles/Trapecio.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Trapecio.dir\build.make CMakeFiles/Trapecio.dir/clean
+.PHONY : CMakeFiles/Trapecio.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Simpson.dir
+
+# All Build rule for target.
+CMakeFiles/Simpson.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Simpson.dir\build.make CMakeFiles/Simpson.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Simpson.dir\build.make CMakeFiles/Simpson.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\cmake-build-debug\CMakeFiles" --progress-num=29,30 "Built target Simpson"
+.PHONY : CMakeFiles/Simpson.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Simpson.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Simpson.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/Simpson.dir/rule
+
+# Convenience name for target.
+Simpson: CMakeFiles/Simpson.dir/rule
+.PHONY : Simpson
+
+# clean rule for target.
+CMakeFiles/Simpson.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Simpson.dir\build.make CMakeFiles/Simpson.dir/clean
+.PHONY : CMakeFiles/Simpson.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Gauss-Legendre.dir
+
+# All Build rule for target.
+CMakeFiles/Gauss-Legendre.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gauss-Legendre.dir\build.make CMakeFiles/Gauss-Legendre.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gauss-Legendre.dir\build.make CMakeFiles/Gauss-Legendre.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\cmake-build-debug\CMakeFiles" --progress-num=11,12 "Built target Gauss-Legendre"
+.PHONY : CMakeFiles/Gauss-Legendre.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Gauss-Legendre.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Gauss-Legendre.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/Gauss-Legendre.dir/rule
+
+# Convenience name for target.
+Gauss-Legendre: CMakeFiles/Gauss-Legendre.dir/rule
+.PHONY : Gauss-Legendre
+
+# clean rule for target.
+CMakeFiles/Gauss-Legendre.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gauss-Legendre.dir\build.make CMakeFiles/Gauss-Legendre.dir/clean
+.PHONY : CMakeFiles/Gauss-Legendre.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

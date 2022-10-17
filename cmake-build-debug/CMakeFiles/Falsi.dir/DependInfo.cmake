@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/Falsi.cpp" "C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/CMakeFiles/Falsi.dir/Falsi.cpp.obj"
+  "C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/Raices/Falsi.cpp" "C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/CMakeFiles/Falsi.dir/Raices/Falsi.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

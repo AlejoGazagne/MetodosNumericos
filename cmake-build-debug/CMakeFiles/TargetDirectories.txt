@@ -11,5 +11,8 @@ C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/CMa
 C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/CMakeFiles/InterpolacionLagrange.dir
 C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/CMakeFiles/RegresionPolinomial.dir
 C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/CMakeFiles/InterpolacionSegmentaria.dir
+C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/CMakeFiles/Trapecio.dir
+C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/CMakeFiles/Simpson.dir
+C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/CMakeFiles/Gauss-Legendre.dir
 C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/CMakeFiles/rebuild_cache.dir

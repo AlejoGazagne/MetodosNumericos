@@ -65,27 +65,27 @@ include CMakeFiles/InterpolacionLagrange.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/InterpolacionLagrange.dir/flags.make
 
-CMakeFiles/InterpolacionLagrange.dir/InterpolacionLagrange.cpp.obj: CMakeFiles/InterpolacionLagrange.dir/flags.make
-CMakeFiles/InterpolacionLagrange.dir/InterpolacionLagrange.cpp.obj: ../InterpolacionLagrange.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/InterpolacionLagrange.dir/InterpolacionLagrange.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\InterpolacionLagrange.dir\InterpolacionLagrange.cpp.obj -c "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\InterpolacionLagrange.cpp"
+CMakeFiles/InterpolacionLagrange.dir/Interpolacion/InterpolacionLagrange.cpp.obj: CMakeFiles/InterpolacionLagrange.dir/flags.make
+CMakeFiles/InterpolacionLagrange.dir/Interpolacion/InterpolacionLagrange.cpp.obj: ../Interpolacion/InterpolacionLagrange.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/InterpolacionLagrange.dir/Interpolacion/InterpolacionLagrange.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\InterpolacionLagrange.dir\Interpolacion\InterpolacionLagrange.cpp.obj -c "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\Interpolacion\InterpolacionLagrange.cpp"
 
-CMakeFiles/InterpolacionLagrange.dir/InterpolacionLagrange.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/InterpolacionLagrange.dir/InterpolacionLagrange.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\InterpolacionLagrange.cpp" > CMakeFiles\InterpolacionLagrange.dir\InterpolacionLagrange.cpp.i
+CMakeFiles/InterpolacionLagrange.dir/Interpolacion/InterpolacionLagrange.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/InterpolacionLagrange.dir/Interpolacion/InterpolacionLagrange.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\Interpolacion\InterpolacionLagrange.cpp" > CMakeFiles\InterpolacionLagrange.dir\Interpolacion\InterpolacionLagrange.cpp.i
 
-CMakeFiles/InterpolacionLagrange.dir/InterpolacionLagrange.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/InterpolacionLagrange.dir/InterpolacionLagrange.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\InterpolacionLagrange.cpp" -o CMakeFiles\InterpolacionLagrange.dir\InterpolacionLagrange.cpp.s
+CMakeFiles/InterpolacionLagrange.dir/Interpolacion/InterpolacionLagrange.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/InterpolacionLagrange.dir/Interpolacion/InterpolacionLagrange.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\Interpolacion\InterpolacionLagrange.cpp" -o CMakeFiles\InterpolacionLagrange.dir\Interpolacion\InterpolacionLagrange.cpp.s
 
 # Object files for target InterpolacionLagrange
 InterpolacionLagrange_OBJECTS = \
-"CMakeFiles/InterpolacionLagrange.dir/InterpolacionLagrange.cpp.obj"
+"CMakeFiles/InterpolacionLagrange.dir/Interpolacion/InterpolacionLagrange.cpp.obj"
 
 # External object files for target InterpolacionLagrange
 InterpolacionLagrange_EXTERNAL_OBJECTS =
 
-InterpolacionLagrange.exe: CMakeFiles/InterpolacionLagrange.dir/InterpolacionLagrange.cpp.obj
+InterpolacionLagrange.exe: CMakeFiles/InterpolacionLagrange.dir/Interpolacion/InterpolacionLagrange.cpp.obj
 InterpolacionLagrange.exe: CMakeFiles/InterpolacionLagrange.dir/build.make
 InterpolacionLagrange.exe: CMakeFiles/InterpolacionLagrange.dir/linklibs.rsp
 InterpolacionLagrange.exe: CMakeFiles/InterpolacionLagrange.dir/objects1.rsp

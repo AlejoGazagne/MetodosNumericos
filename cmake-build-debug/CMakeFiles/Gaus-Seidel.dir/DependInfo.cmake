@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/Gaus-Seidel.cpp" "C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/CMakeFiles/Gaus-Seidel.dir/Gaus-Seidel.cpp.obj"
+  "C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/SistemaDeEcuaciones/Gaus-Seidel.cpp" "C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/CMakeFiles/Gaus-Seidel.dir/SistemaDeEcuaciones/Gaus-Seidel.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

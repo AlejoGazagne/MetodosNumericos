@@ -65,27 +65,27 @@ include CMakeFiles/Jacobi.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Jacobi.dir/flags.make
 
-CMakeFiles/Jacobi.dir/Jacobi.cpp.obj: CMakeFiles/Jacobi.dir/flags.make
-CMakeFiles/Jacobi.dir/Jacobi.cpp.obj: ../Jacobi.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Jacobi.dir/Jacobi.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Jacobi.dir\Jacobi.cpp.obj -c "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\Jacobi.cpp"
+CMakeFiles/Jacobi.dir/Raices/Jacobi.cpp.obj: CMakeFiles/Jacobi.dir/flags.make
+CMakeFiles/Jacobi.dir/Raices/Jacobi.cpp.obj: ../Raices/Jacobi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Jacobi.dir/Raices/Jacobi.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Jacobi.dir\Raices\Jacobi.cpp.obj -c "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\Raices\Jacobi.cpp"
 
-CMakeFiles/Jacobi.dir/Jacobi.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Jacobi.dir/Jacobi.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\Jacobi.cpp" > CMakeFiles\Jacobi.dir\Jacobi.cpp.i
+CMakeFiles/Jacobi.dir/Raices/Jacobi.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Jacobi.dir/Raices/Jacobi.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\Raices\Jacobi.cpp" > CMakeFiles\Jacobi.dir\Raices\Jacobi.cpp.i
 
-CMakeFiles/Jacobi.dir/Jacobi.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Jacobi.dir/Jacobi.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\Jacobi.cpp" -o CMakeFiles\Jacobi.dir\Jacobi.cpp.s
+CMakeFiles/Jacobi.dir/Raices/Jacobi.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Jacobi.dir/Raices/Jacobi.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\Raices\Jacobi.cpp" -o CMakeFiles\Jacobi.dir\Raices\Jacobi.cpp.s
 
 # Object files for target Jacobi
 Jacobi_OBJECTS = \
-"CMakeFiles/Jacobi.dir/Jacobi.cpp.obj"
+"CMakeFiles/Jacobi.dir/Raices/Jacobi.cpp.obj"
 
 # External object files for target Jacobi
 Jacobi_EXTERNAL_OBJECTS =
 
-Jacobi.exe: CMakeFiles/Jacobi.dir/Jacobi.cpp.obj
+Jacobi.exe: CMakeFiles/Jacobi.dir/Raices/Jacobi.cpp.obj
 Jacobi.exe: CMakeFiles/Jacobi.dir/build.make
 Jacobi.exe: CMakeFiles/Jacobi.dir/linklibs.rsp
 Jacobi.exe: CMakeFiles/Jacobi.dir/objects1.rsp

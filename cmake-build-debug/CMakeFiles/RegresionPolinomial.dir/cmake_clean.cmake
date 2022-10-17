@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/RegresionPolinomial.dir/RegresionPolinomial.cpp.obj"
+  "CMakeFiles/RegresionPolinomial.dir/Regresion/RegresionPolinomial.cpp.obj"
   "RegresionPolinomial.exe"
   "RegresionPolinomial.exe.manifest"
   "RegresionPolinomial.pdb"

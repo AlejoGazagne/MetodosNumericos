@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Jacobi.dir/Jacobi.cpp.obj"
+  "CMakeFiles/Jacobi.dir/Raices/Jacobi.cpp.obj"
   "Jacobi.exe"
   "Jacobi.exe.manifest"
   "Jacobi.pdb"

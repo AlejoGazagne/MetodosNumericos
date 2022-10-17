@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/Secante.cpp" "C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/CMakeFiles/Secante.dir/Secante.cpp.obj"
+  "C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/Raices/Secante.cpp" "C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/CMakeFiles/Secante.dir/Raices/Secante.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

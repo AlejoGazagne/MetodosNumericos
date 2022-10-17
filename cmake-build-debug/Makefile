@@ -284,317 +284,428 @@ InterpolacionSegmentaria/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterpolacionSegmentaria.dir\build.make CMakeFiles/InterpolacionSegmentaria.dir/build
 .PHONY : InterpolacionSegmentaria/fast
 
-Biseccion.obj: Biseccion.cpp.obj
-.PHONY : Biseccion.obj
+#=============================================================================
+# Target rules for targets named Trapecio
+
+# Build rule for target.
+Trapecio: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Trapecio
+.PHONY : Trapecio
+
+# fast build rule for target.
+Trapecio/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Trapecio.dir\build.make CMakeFiles/Trapecio.dir/build
+.PHONY : Trapecio/fast
+
+#=============================================================================
+# Target rules for targets named Simpson
+
+# Build rule for target.
+Simpson: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Simpson
+.PHONY : Simpson
+
+# fast build rule for target.
+Simpson/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Simpson.dir\build.make CMakeFiles/Simpson.dir/build
+.PHONY : Simpson/fast
+
+#=============================================================================
+# Target rules for targets named Gauss-Legendre
+
+# Build rule for target.
+Gauss-Legendre: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Gauss-Legendre
+.PHONY : Gauss-Legendre
+
+# fast build rule for target.
+Gauss-Legendre/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gauss-Legendre.dir\build.make CMakeFiles/Gauss-Legendre.dir/build
+.PHONY : Gauss-Legendre/fast
+
+Integracion/Gauss-Legendre.obj: Integracion/Gauss-Legendre.cpp.obj
+.PHONY : Integracion/Gauss-Legendre.obj
 
 # target to build an object file
-Biseccion.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Biseccion.dir\build.make CMakeFiles/Biseccion.dir/Biseccion.cpp.obj
-.PHONY : Biseccion.cpp.obj
+Integracion/Gauss-Legendre.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gauss-Legendre.dir\build.make CMakeFiles/Gauss-Legendre.dir/Integracion/Gauss-Legendre.cpp.obj
+.PHONY : Integracion/Gauss-Legendre.cpp.obj
 
-Biseccion.i: Biseccion.cpp.i
-.PHONY : Biseccion.i
+Integracion/Gauss-Legendre.i: Integracion/Gauss-Legendre.cpp.i
+.PHONY : Integracion/Gauss-Legendre.i
 
 # target to preprocess a source file
-Biseccion.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Biseccion.dir\build.make CMakeFiles/Biseccion.dir/Biseccion.cpp.i
-.PHONY : Biseccion.cpp.i
+Integracion/Gauss-Legendre.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gauss-Legendre.dir\build.make CMakeFiles/Gauss-Legendre.dir/Integracion/Gauss-Legendre.cpp.i
+.PHONY : Integracion/Gauss-Legendre.cpp.i
 
-Biseccion.s: Biseccion.cpp.s
-.PHONY : Biseccion.s
+Integracion/Gauss-Legendre.s: Integracion/Gauss-Legendre.cpp.s
+.PHONY : Integracion/Gauss-Legendre.s
 
 # target to generate assembly for a file
-Biseccion.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Biseccion.dir\build.make CMakeFiles/Biseccion.dir/Biseccion.cpp.s
-.PHONY : Biseccion.cpp.s
+Integracion/Gauss-Legendre.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gauss-Legendre.dir\build.make CMakeFiles/Gauss-Legendre.dir/Integracion/Gauss-Legendre.cpp.s
+.PHONY : Integracion/Gauss-Legendre.cpp.s
 
-Ejercicio3Jacobi.obj: Ejercicio3Jacobi.cpp.obj
-.PHONY : Ejercicio3Jacobi.obj
+Integracion/Simpson.obj: Integracion/Simpson.cpp.obj
+.PHONY : Integracion/Simpson.obj
 
 # target to build an object file
-Ejercicio3Jacobi.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio3Jacobi.dir\build.make CMakeFiles/Ejercicio3Jacobi.dir/Ejercicio3Jacobi.cpp.obj
-.PHONY : Ejercicio3Jacobi.cpp.obj
+Integracion/Simpson.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Simpson.dir\build.make CMakeFiles/Simpson.dir/Integracion/Simpson.cpp.obj
+.PHONY : Integracion/Simpson.cpp.obj
 
-Ejercicio3Jacobi.i: Ejercicio3Jacobi.cpp.i
-.PHONY : Ejercicio3Jacobi.i
+Integracion/Simpson.i: Integracion/Simpson.cpp.i
+.PHONY : Integracion/Simpson.i
 
 # target to preprocess a source file
-Ejercicio3Jacobi.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio3Jacobi.dir\build.make CMakeFiles/Ejercicio3Jacobi.dir/Ejercicio3Jacobi.cpp.i
-.PHONY : Ejercicio3Jacobi.cpp.i
+Integracion/Simpson.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Simpson.dir\build.make CMakeFiles/Simpson.dir/Integracion/Simpson.cpp.i
+.PHONY : Integracion/Simpson.cpp.i
 
-Ejercicio3Jacobi.s: Ejercicio3Jacobi.cpp.s
-.PHONY : Ejercicio3Jacobi.s
+Integracion/Simpson.s: Integracion/Simpson.cpp.s
+.PHONY : Integracion/Simpson.s
 
 # target to generate assembly for a file
-Ejercicio3Jacobi.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio3Jacobi.dir\build.make CMakeFiles/Ejercicio3Jacobi.dir/Ejercicio3Jacobi.cpp.s
-.PHONY : Ejercicio3Jacobi.cpp.s
+Integracion/Simpson.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Simpson.dir\build.make CMakeFiles/Simpson.dir/Integracion/Simpson.cpp.s
+.PHONY : Integracion/Simpson.cpp.s
 
-Falsi.obj: Falsi.cpp.obj
-.PHONY : Falsi.obj
+Integracion/Trapecio.obj: Integracion/Trapecio.cpp.obj
+.PHONY : Integracion/Trapecio.obj
 
 # target to build an object file
-Falsi.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Falsi.dir\build.make CMakeFiles/Falsi.dir/Falsi.cpp.obj
-.PHONY : Falsi.cpp.obj
+Integracion/Trapecio.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Trapecio.dir\build.make CMakeFiles/Trapecio.dir/Integracion/Trapecio.cpp.obj
+.PHONY : Integracion/Trapecio.cpp.obj
 
-Falsi.i: Falsi.cpp.i
-.PHONY : Falsi.i
+Integracion/Trapecio.i: Integracion/Trapecio.cpp.i
+.PHONY : Integracion/Trapecio.i
 
 # target to preprocess a source file
-Falsi.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Falsi.dir\build.make CMakeFiles/Falsi.dir/Falsi.cpp.i
-.PHONY : Falsi.cpp.i
+Integracion/Trapecio.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Trapecio.dir\build.make CMakeFiles/Trapecio.dir/Integracion/Trapecio.cpp.i
+.PHONY : Integracion/Trapecio.cpp.i
 
-Falsi.s: Falsi.cpp.s
-.PHONY : Falsi.s
+Integracion/Trapecio.s: Integracion/Trapecio.cpp.s
+.PHONY : Integracion/Trapecio.s
 
 # target to generate assembly for a file
-Falsi.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Falsi.dir\build.make CMakeFiles/Falsi.dir/Falsi.cpp.s
-.PHONY : Falsi.cpp.s
+Integracion/Trapecio.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Trapecio.dir\build.make CMakeFiles/Trapecio.dir/Integracion/Trapecio.cpp.s
+.PHONY : Integracion/Trapecio.cpp.s
 
-Gaus-Seidel.obj: Gaus-Seidel.cpp.obj
-.PHONY : Gaus-Seidel.obj
+Interpolacion/InterpolacionLagrange.obj: Interpolacion/InterpolacionLagrange.cpp.obj
+.PHONY : Interpolacion/InterpolacionLagrange.obj
 
 # target to build an object file
-Gaus-Seidel.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gaus-Seidel.dir\build.make CMakeFiles/Gaus-Seidel.dir/Gaus-Seidel.cpp.obj
-.PHONY : Gaus-Seidel.cpp.obj
+Interpolacion/InterpolacionLagrange.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterpolacionLagrange.dir\build.make CMakeFiles/InterpolacionLagrange.dir/Interpolacion/InterpolacionLagrange.cpp.obj
+.PHONY : Interpolacion/InterpolacionLagrange.cpp.obj
 
-Gaus-Seidel.i: Gaus-Seidel.cpp.i
-.PHONY : Gaus-Seidel.i
+Interpolacion/InterpolacionLagrange.i: Interpolacion/InterpolacionLagrange.cpp.i
+.PHONY : Interpolacion/InterpolacionLagrange.i
 
 # target to preprocess a source file
-Gaus-Seidel.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gaus-Seidel.dir\build.make CMakeFiles/Gaus-Seidel.dir/Gaus-Seidel.cpp.i
-.PHONY : Gaus-Seidel.cpp.i
+Interpolacion/InterpolacionLagrange.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterpolacionLagrange.dir\build.make CMakeFiles/InterpolacionLagrange.dir/Interpolacion/InterpolacionLagrange.cpp.i
+.PHONY : Interpolacion/InterpolacionLagrange.cpp.i
 
-Gaus-Seidel.s: Gaus-Seidel.cpp.s
-.PHONY : Gaus-Seidel.s
+Interpolacion/InterpolacionLagrange.s: Interpolacion/InterpolacionLagrange.cpp.s
+.PHONY : Interpolacion/InterpolacionLagrange.s
 
 # target to generate assembly for a file
-Gaus-Seidel.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gaus-Seidel.dir\build.make CMakeFiles/Gaus-Seidel.dir/Gaus-Seidel.cpp.s
-.PHONY : Gaus-Seidel.cpp.s
+Interpolacion/InterpolacionLagrange.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterpolacionLagrange.dir\build.make CMakeFiles/InterpolacionLagrange.dir/Interpolacion/InterpolacionLagrange.cpp.s
+.PHONY : Interpolacion/InterpolacionLagrange.cpp.s
 
-Gaus.obj: Gaus.cpp.obj
-.PHONY : Gaus.obj
+Interpolacion/InterpolacionSegmentaria.obj: Interpolacion/InterpolacionSegmentaria.cpp.obj
+.PHONY : Interpolacion/InterpolacionSegmentaria.obj
 
 # target to build an object file
-Gaus.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gaus.dir\build.make CMakeFiles/Gaus.dir/Gaus.cpp.obj
-.PHONY : Gaus.cpp.obj
+Interpolacion/InterpolacionSegmentaria.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterpolacionSegmentaria.dir\build.make CMakeFiles/InterpolacionSegmentaria.dir/Interpolacion/InterpolacionSegmentaria.cpp.obj
+.PHONY : Interpolacion/InterpolacionSegmentaria.cpp.obj
 
-Gaus.i: Gaus.cpp.i
-.PHONY : Gaus.i
+Interpolacion/InterpolacionSegmentaria.i: Interpolacion/InterpolacionSegmentaria.cpp.i
+.PHONY : Interpolacion/InterpolacionSegmentaria.i
 
 # target to preprocess a source file
-Gaus.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gaus.dir\build.make CMakeFiles/Gaus.dir/Gaus.cpp.i
-.PHONY : Gaus.cpp.i
+Interpolacion/InterpolacionSegmentaria.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterpolacionSegmentaria.dir\build.make CMakeFiles/InterpolacionSegmentaria.dir/Interpolacion/InterpolacionSegmentaria.cpp.i
+.PHONY : Interpolacion/InterpolacionSegmentaria.cpp.i
 
-Gaus.s: Gaus.cpp.s
-.PHONY : Gaus.s
+Interpolacion/InterpolacionSegmentaria.s: Interpolacion/InterpolacionSegmentaria.cpp.s
+.PHONY : Interpolacion/InterpolacionSegmentaria.s
 
 # target to generate assembly for a file
-Gaus.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gaus.dir\build.make CMakeFiles/Gaus.dir/Gaus.cpp.s
-.PHONY : Gaus.cpp.s
+Interpolacion/InterpolacionSegmentaria.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterpolacionSegmentaria.dir\build.make CMakeFiles/InterpolacionSegmentaria.dir/Interpolacion/InterpolacionSegmentaria.cpp.s
+.PHONY : Interpolacion/InterpolacionSegmentaria.cpp.s
 
-InterpolacionLagrange.obj: InterpolacionLagrange.cpp.obj
-.PHONY : InterpolacionLagrange.obj
+Raices/Biseccion.obj: Raices/Biseccion.cpp.obj
+.PHONY : Raices/Biseccion.obj
 
 # target to build an object file
-InterpolacionLagrange.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterpolacionLagrange.dir\build.make CMakeFiles/InterpolacionLagrange.dir/InterpolacionLagrange.cpp.obj
-.PHONY : InterpolacionLagrange.cpp.obj
+Raices/Biseccion.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Biseccion.dir\build.make CMakeFiles/Biseccion.dir/Raices/Biseccion.cpp.obj
+.PHONY : Raices/Biseccion.cpp.obj
 
-InterpolacionLagrange.i: InterpolacionLagrange.cpp.i
-.PHONY : InterpolacionLagrange.i
+Raices/Biseccion.i: Raices/Biseccion.cpp.i
+.PHONY : Raices/Biseccion.i
 
 # target to preprocess a source file
-InterpolacionLagrange.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterpolacionLagrange.dir\build.make CMakeFiles/InterpolacionLagrange.dir/InterpolacionLagrange.cpp.i
-.PHONY : InterpolacionLagrange.cpp.i
+Raices/Biseccion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Biseccion.dir\build.make CMakeFiles/Biseccion.dir/Raices/Biseccion.cpp.i
+.PHONY : Raices/Biseccion.cpp.i
 
-InterpolacionLagrange.s: InterpolacionLagrange.cpp.s
-.PHONY : InterpolacionLagrange.s
+Raices/Biseccion.s: Raices/Biseccion.cpp.s
+.PHONY : Raices/Biseccion.s
 
 # target to generate assembly for a file
-InterpolacionLagrange.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterpolacionLagrange.dir\build.make CMakeFiles/InterpolacionLagrange.dir/InterpolacionLagrange.cpp.s
-.PHONY : InterpolacionLagrange.cpp.s
+Raices/Biseccion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Biseccion.dir\build.make CMakeFiles/Biseccion.dir/Raices/Biseccion.cpp.s
+.PHONY : Raices/Biseccion.cpp.s
 
-InterpolacionSegmentaria.obj: InterpolacionSegmentaria.cpp.obj
-.PHONY : InterpolacionSegmentaria.obj
+Raices/Ejercicio3Jacobi.obj: Raices/Ejercicio3Jacobi.cpp.obj
+.PHONY : Raices/Ejercicio3Jacobi.obj
 
 # target to build an object file
-InterpolacionSegmentaria.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterpolacionSegmentaria.dir\build.make CMakeFiles/InterpolacionSegmentaria.dir/InterpolacionSegmentaria.cpp.obj
-.PHONY : InterpolacionSegmentaria.cpp.obj
+Raices/Ejercicio3Jacobi.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio3Jacobi.dir\build.make CMakeFiles/Ejercicio3Jacobi.dir/Raices/Ejercicio3Jacobi.cpp.obj
+.PHONY : Raices/Ejercicio3Jacobi.cpp.obj
 
-InterpolacionSegmentaria.i: InterpolacionSegmentaria.cpp.i
-.PHONY : InterpolacionSegmentaria.i
+Raices/Ejercicio3Jacobi.i: Raices/Ejercicio3Jacobi.cpp.i
+.PHONY : Raices/Ejercicio3Jacobi.i
 
 # target to preprocess a source file
-InterpolacionSegmentaria.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterpolacionSegmentaria.dir\build.make CMakeFiles/InterpolacionSegmentaria.dir/InterpolacionSegmentaria.cpp.i
-.PHONY : InterpolacionSegmentaria.cpp.i
+Raices/Ejercicio3Jacobi.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio3Jacobi.dir\build.make CMakeFiles/Ejercicio3Jacobi.dir/Raices/Ejercicio3Jacobi.cpp.i
+.PHONY : Raices/Ejercicio3Jacobi.cpp.i
 
-InterpolacionSegmentaria.s: InterpolacionSegmentaria.cpp.s
-.PHONY : InterpolacionSegmentaria.s
+Raices/Ejercicio3Jacobi.s: Raices/Ejercicio3Jacobi.cpp.s
+.PHONY : Raices/Ejercicio3Jacobi.s
 
 # target to generate assembly for a file
-InterpolacionSegmentaria.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterpolacionSegmentaria.dir\build.make CMakeFiles/InterpolacionSegmentaria.dir/InterpolacionSegmentaria.cpp.s
-.PHONY : InterpolacionSegmentaria.cpp.s
+Raices/Ejercicio3Jacobi.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ejercicio3Jacobi.dir\build.make CMakeFiles/Ejercicio3Jacobi.dir/Raices/Ejercicio3Jacobi.cpp.s
+.PHONY : Raices/Ejercicio3Jacobi.cpp.s
 
-Jacobi.obj: Jacobi.cpp.obj
-.PHONY : Jacobi.obj
+Raices/Falsi.obj: Raices/Falsi.cpp.obj
+.PHONY : Raices/Falsi.obj
 
 # target to build an object file
-Jacobi.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Jacobi.dir\build.make CMakeFiles/Jacobi.dir/Jacobi.cpp.obj
-.PHONY : Jacobi.cpp.obj
+Raices/Falsi.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Falsi.dir\build.make CMakeFiles/Falsi.dir/Raices/Falsi.cpp.obj
+.PHONY : Raices/Falsi.cpp.obj
 
-Jacobi.i: Jacobi.cpp.i
-.PHONY : Jacobi.i
+Raices/Falsi.i: Raices/Falsi.cpp.i
+.PHONY : Raices/Falsi.i
 
 # target to preprocess a source file
-Jacobi.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Jacobi.dir\build.make CMakeFiles/Jacobi.dir/Jacobi.cpp.i
-.PHONY : Jacobi.cpp.i
+Raices/Falsi.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Falsi.dir\build.make CMakeFiles/Falsi.dir/Raices/Falsi.cpp.i
+.PHONY : Raices/Falsi.cpp.i
 
-Jacobi.s: Jacobi.cpp.s
-.PHONY : Jacobi.s
+Raices/Falsi.s: Raices/Falsi.cpp.s
+.PHONY : Raices/Falsi.s
 
 # target to generate assembly for a file
-Jacobi.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Jacobi.dir\build.make CMakeFiles/Jacobi.dir/Jacobi.cpp.s
-.PHONY : Jacobi.cpp.s
+Raices/Falsi.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Falsi.dir\build.make CMakeFiles/Falsi.dir/Raices/Falsi.cpp.s
+.PHONY : Raices/Falsi.cpp.s
 
-Newton_Raphson.obj: Newton_Raphson.cpp.obj
-.PHONY : Newton_Raphson.obj
+Raices/Jacobi.obj: Raices/Jacobi.cpp.obj
+.PHONY : Raices/Jacobi.obj
 
 # target to build an object file
-Newton_Raphson.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Newton_Raphson.dir\build.make CMakeFiles/Newton_Raphson.dir/Newton_Raphson.cpp.obj
-.PHONY : Newton_Raphson.cpp.obj
+Raices/Jacobi.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Jacobi.dir\build.make CMakeFiles/Jacobi.dir/Raices/Jacobi.cpp.obj
+.PHONY : Raices/Jacobi.cpp.obj
 
-Newton_Raphson.i: Newton_Raphson.cpp.i
-.PHONY : Newton_Raphson.i
+Raices/Jacobi.i: Raices/Jacobi.cpp.i
+.PHONY : Raices/Jacobi.i
 
 # target to preprocess a source file
-Newton_Raphson.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Newton_Raphson.dir\build.make CMakeFiles/Newton_Raphson.dir/Newton_Raphson.cpp.i
-.PHONY : Newton_Raphson.cpp.i
+Raices/Jacobi.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Jacobi.dir\build.make CMakeFiles/Jacobi.dir/Raices/Jacobi.cpp.i
+.PHONY : Raices/Jacobi.cpp.i
 
-Newton_Raphson.s: Newton_Raphson.cpp.s
-.PHONY : Newton_Raphson.s
+Raices/Jacobi.s: Raices/Jacobi.cpp.s
+.PHONY : Raices/Jacobi.s
 
 # target to generate assembly for a file
-Newton_Raphson.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Newton_Raphson.dir\build.make CMakeFiles/Newton_Raphson.dir/Newton_Raphson.cpp.s
-.PHONY : Newton_Raphson.cpp.s
+Raices/Jacobi.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Jacobi.dir\build.make CMakeFiles/Jacobi.dir/Raices/Jacobi.cpp.s
+.PHONY : Raices/Jacobi.cpp.s
 
-PuntoFijo.obj: PuntoFijo.cpp.obj
-.PHONY : PuntoFijo.obj
+Raices/Newton_Raphson.obj: Raices/Newton_Raphson.cpp.obj
+.PHONY : Raices/Newton_Raphson.obj
 
 # target to build an object file
-PuntoFijo.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PuntoFijo.dir\build.make CMakeFiles/PuntoFijo.dir/PuntoFijo.cpp.obj
-.PHONY : PuntoFijo.cpp.obj
+Raices/Newton_Raphson.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Newton_Raphson.dir\build.make CMakeFiles/Newton_Raphson.dir/Raices/Newton_Raphson.cpp.obj
+.PHONY : Raices/Newton_Raphson.cpp.obj
 
-PuntoFijo.i: PuntoFijo.cpp.i
-.PHONY : PuntoFijo.i
+Raices/Newton_Raphson.i: Raices/Newton_Raphson.cpp.i
+.PHONY : Raices/Newton_Raphson.i
 
 # target to preprocess a source file
-PuntoFijo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PuntoFijo.dir\build.make CMakeFiles/PuntoFijo.dir/PuntoFijo.cpp.i
-.PHONY : PuntoFijo.cpp.i
+Raices/Newton_Raphson.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Newton_Raphson.dir\build.make CMakeFiles/Newton_Raphson.dir/Raices/Newton_Raphson.cpp.i
+.PHONY : Raices/Newton_Raphson.cpp.i
 
-PuntoFijo.s: PuntoFijo.cpp.s
-.PHONY : PuntoFijo.s
+Raices/Newton_Raphson.s: Raices/Newton_Raphson.cpp.s
+.PHONY : Raices/Newton_Raphson.s
 
 # target to generate assembly for a file
-PuntoFijo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PuntoFijo.dir\build.make CMakeFiles/PuntoFijo.dir/PuntoFijo.cpp.s
-.PHONY : PuntoFijo.cpp.s
+Raices/Newton_Raphson.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Newton_Raphson.dir\build.make CMakeFiles/Newton_Raphson.dir/Raices/Newton_Raphson.cpp.s
+.PHONY : Raices/Newton_Raphson.cpp.s
 
-RegresionPolinomial.obj: RegresionPolinomial.cpp.obj
-.PHONY : RegresionPolinomial.obj
+Raices/PuntoFijo.obj: Raices/PuntoFijo.cpp.obj
+.PHONY : Raices/PuntoFijo.obj
 
 # target to build an object file
-RegresionPolinomial.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RegresionPolinomial.dir\build.make CMakeFiles/RegresionPolinomial.dir/RegresionPolinomial.cpp.obj
-.PHONY : RegresionPolinomial.cpp.obj
+Raices/PuntoFijo.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PuntoFijo.dir\build.make CMakeFiles/PuntoFijo.dir/Raices/PuntoFijo.cpp.obj
+.PHONY : Raices/PuntoFijo.cpp.obj
 
-RegresionPolinomial.i: RegresionPolinomial.cpp.i
-.PHONY : RegresionPolinomial.i
+Raices/PuntoFijo.i: Raices/PuntoFijo.cpp.i
+.PHONY : Raices/PuntoFijo.i
 
 # target to preprocess a source file
-RegresionPolinomial.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RegresionPolinomial.dir\build.make CMakeFiles/RegresionPolinomial.dir/RegresionPolinomial.cpp.i
-.PHONY : RegresionPolinomial.cpp.i
+Raices/PuntoFijo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PuntoFijo.dir\build.make CMakeFiles/PuntoFijo.dir/Raices/PuntoFijo.cpp.i
+.PHONY : Raices/PuntoFijo.cpp.i
 
-RegresionPolinomial.s: RegresionPolinomial.cpp.s
-.PHONY : RegresionPolinomial.s
+Raices/PuntoFijo.s: Raices/PuntoFijo.cpp.s
+.PHONY : Raices/PuntoFijo.s
 
 # target to generate assembly for a file
-RegresionPolinomial.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RegresionPolinomial.dir\build.make CMakeFiles/RegresionPolinomial.dir/RegresionPolinomial.cpp.s
-.PHONY : RegresionPolinomial.cpp.s
+Raices/PuntoFijo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PuntoFijo.dir\build.make CMakeFiles/PuntoFijo.dir/Raices/PuntoFijo.cpp.s
+.PHONY : Raices/PuntoFijo.cpp.s
 
-RelajacionGaus-Seidel.obj: RelajacionGaus-Seidel.cpp.obj
-.PHONY : RelajacionGaus-Seidel.obj
+Raices/Secante.obj: Raices/Secante.cpp.obj
+.PHONY : Raices/Secante.obj
 
 # target to build an object file
-RelajacionGaus-Seidel.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RelajacionGaus-Seidel.dir\build.make CMakeFiles/RelajacionGaus-Seidel.dir/RelajacionGaus-Seidel.cpp.obj
-.PHONY : RelajacionGaus-Seidel.cpp.obj
+Raices/Secante.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Secante.dir\build.make CMakeFiles/Secante.dir/Raices/Secante.cpp.obj
+.PHONY : Raices/Secante.cpp.obj
 
-RelajacionGaus-Seidel.i: RelajacionGaus-Seidel.cpp.i
-.PHONY : RelajacionGaus-Seidel.i
+Raices/Secante.i: Raices/Secante.cpp.i
+.PHONY : Raices/Secante.i
 
 # target to preprocess a source file
-RelajacionGaus-Seidel.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RelajacionGaus-Seidel.dir\build.make CMakeFiles/RelajacionGaus-Seidel.dir/RelajacionGaus-Seidel.cpp.i
-.PHONY : RelajacionGaus-Seidel.cpp.i
+Raices/Secante.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Secante.dir\build.make CMakeFiles/Secante.dir/Raices/Secante.cpp.i
+.PHONY : Raices/Secante.cpp.i
 
-RelajacionGaus-Seidel.s: RelajacionGaus-Seidel.cpp.s
-.PHONY : RelajacionGaus-Seidel.s
+Raices/Secante.s: Raices/Secante.cpp.s
+.PHONY : Raices/Secante.s
 
 # target to generate assembly for a file
-RelajacionGaus-Seidel.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RelajacionGaus-Seidel.dir\build.make CMakeFiles/RelajacionGaus-Seidel.dir/RelajacionGaus-Seidel.cpp.s
-.PHONY : RelajacionGaus-Seidel.cpp.s
+Raices/Secante.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Secante.dir\build.make CMakeFiles/Secante.dir/Raices/Secante.cpp.s
+.PHONY : Raices/Secante.cpp.s
 
-Secante.obj: Secante.cpp.obj
-.PHONY : Secante.obj
+Regresion/RegresionPolinomial.obj: Regresion/RegresionPolinomial.cpp.obj
+.PHONY : Regresion/RegresionPolinomial.obj
 
 # target to build an object file
-Secante.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Secante.dir\build.make CMakeFiles/Secante.dir/Secante.cpp.obj
-.PHONY : Secante.cpp.obj
+Regresion/RegresionPolinomial.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RegresionPolinomial.dir\build.make CMakeFiles/RegresionPolinomial.dir/Regresion/RegresionPolinomial.cpp.obj
+.PHONY : Regresion/RegresionPolinomial.cpp.obj
 
-Secante.i: Secante.cpp.i
-.PHONY : Secante.i
+Regresion/RegresionPolinomial.i: Regresion/RegresionPolinomial.cpp.i
+.PHONY : Regresion/RegresionPolinomial.i
 
 # target to preprocess a source file
-Secante.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Secante.dir\build.make CMakeFiles/Secante.dir/Secante.cpp.i
-.PHONY : Secante.cpp.i
+Regresion/RegresionPolinomial.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RegresionPolinomial.dir\build.make CMakeFiles/RegresionPolinomial.dir/Regresion/RegresionPolinomial.cpp.i
+.PHONY : Regresion/RegresionPolinomial.cpp.i
 
-Secante.s: Secante.cpp.s
-.PHONY : Secante.s
+Regresion/RegresionPolinomial.s: Regresion/RegresionPolinomial.cpp.s
+.PHONY : Regresion/RegresionPolinomial.s
 
 # target to generate assembly for a file
-Secante.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Secante.dir\build.make CMakeFiles/Secante.dir/Secante.cpp.s
-.PHONY : Secante.cpp.s
+Regresion/RegresionPolinomial.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RegresionPolinomial.dir\build.make CMakeFiles/RegresionPolinomial.dir/Regresion/RegresionPolinomial.cpp.s
+.PHONY : Regresion/RegresionPolinomial.cpp.s
+
+SistemaDeEcuaciones/Gaus-Seidel.obj: SistemaDeEcuaciones/Gaus-Seidel.cpp.obj
+.PHONY : SistemaDeEcuaciones/Gaus-Seidel.obj
+
+# target to build an object file
+SistemaDeEcuaciones/Gaus-Seidel.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gaus-Seidel.dir\build.make CMakeFiles/Gaus-Seidel.dir/SistemaDeEcuaciones/Gaus-Seidel.cpp.obj
+.PHONY : SistemaDeEcuaciones/Gaus-Seidel.cpp.obj
+
+SistemaDeEcuaciones/Gaus-Seidel.i: SistemaDeEcuaciones/Gaus-Seidel.cpp.i
+.PHONY : SistemaDeEcuaciones/Gaus-Seidel.i
+
+# target to preprocess a source file
+SistemaDeEcuaciones/Gaus-Seidel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gaus-Seidel.dir\build.make CMakeFiles/Gaus-Seidel.dir/SistemaDeEcuaciones/Gaus-Seidel.cpp.i
+.PHONY : SistemaDeEcuaciones/Gaus-Seidel.cpp.i
+
+SistemaDeEcuaciones/Gaus-Seidel.s: SistemaDeEcuaciones/Gaus-Seidel.cpp.s
+.PHONY : SistemaDeEcuaciones/Gaus-Seidel.s
+
+# target to generate assembly for a file
+SistemaDeEcuaciones/Gaus-Seidel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gaus-Seidel.dir\build.make CMakeFiles/Gaus-Seidel.dir/SistemaDeEcuaciones/Gaus-Seidel.cpp.s
+.PHONY : SistemaDeEcuaciones/Gaus-Seidel.cpp.s
+
+SistemaDeEcuaciones/Gaus.obj: SistemaDeEcuaciones/Gaus.cpp.obj
+.PHONY : SistemaDeEcuaciones/Gaus.obj
+
+# target to build an object file
+SistemaDeEcuaciones/Gaus.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gaus.dir\build.make CMakeFiles/Gaus.dir/SistemaDeEcuaciones/Gaus.cpp.obj
+.PHONY : SistemaDeEcuaciones/Gaus.cpp.obj
+
+SistemaDeEcuaciones/Gaus.i: SistemaDeEcuaciones/Gaus.cpp.i
+.PHONY : SistemaDeEcuaciones/Gaus.i
+
+# target to preprocess a source file
+SistemaDeEcuaciones/Gaus.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gaus.dir\build.make CMakeFiles/Gaus.dir/SistemaDeEcuaciones/Gaus.cpp.i
+.PHONY : SistemaDeEcuaciones/Gaus.cpp.i
+
+SistemaDeEcuaciones/Gaus.s: SistemaDeEcuaciones/Gaus.cpp.s
+.PHONY : SistemaDeEcuaciones/Gaus.s
+
+# target to generate assembly for a file
+SistemaDeEcuaciones/Gaus.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gaus.dir\build.make CMakeFiles/Gaus.dir/SistemaDeEcuaciones/Gaus.cpp.s
+.PHONY : SistemaDeEcuaciones/Gaus.cpp.s
+
+SistemaDeEcuaciones/RelajacionGaus-Seidel.obj: SistemaDeEcuaciones/RelajacionGaus-Seidel.cpp.obj
+.PHONY : SistemaDeEcuaciones/RelajacionGaus-Seidel.obj
+
+# target to build an object file
+SistemaDeEcuaciones/RelajacionGaus-Seidel.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RelajacionGaus-Seidel.dir\build.make CMakeFiles/RelajacionGaus-Seidel.dir/SistemaDeEcuaciones/RelajacionGaus-Seidel.cpp.obj
+.PHONY : SistemaDeEcuaciones/RelajacionGaus-Seidel.cpp.obj
+
+SistemaDeEcuaciones/RelajacionGaus-Seidel.i: SistemaDeEcuaciones/RelajacionGaus-Seidel.cpp.i
+.PHONY : SistemaDeEcuaciones/RelajacionGaus-Seidel.i
+
+# target to preprocess a source file
+SistemaDeEcuaciones/RelajacionGaus-Seidel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RelajacionGaus-Seidel.dir\build.make CMakeFiles/RelajacionGaus-Seidel.dir/SistemaDeEcuaciones/RelajacionGaus-Seidel.cpp.i
+.PHONY : SistemaDeEcuaciones/RelajacionGaus-Seidel.cpp.i
+
+SistemaDeEcuaciones/RelajacionGaus-Seidel.s: SistemaDeEcuaciones/RelajacionGaus-Seidel.cpp.s
+.PHONY : SistemaDeEcuaciones/RelajacionGaus-Seidel.s
+
+# target to generate assembly for a file
+SistemaDeEcuaciones/RelajacionGaus-Seidel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RelajacionGaus-Seidel.dir\build.make CMakeFiles/RelajacionGaus-Seidel.dir/SistemaDeEcuaciones/RelajacionGaus-Seidel.cpp.s
+.PHONY : SistemaDeEcuaciones/RelajacionGaus-Seidel.cpp.s
 
 # Help Target
 help:
@@ -609,6 +720,7 @@ help:
 	@echo ... Falsi
 	@echo ... Gaus
 	@echo ... Gaus-Seidel
+	@echo ... Gauss-Legendre
 	@echo ... InterpolacionLagrange
 	@echo ... InterpolacionSegmentaria
 	@echo ... Jacobi
@@ -617,45 +729,56 @@ help:
 	@echo ... RegresionPolinomial
 	@echo ... RelajacionGaus-Seidel
 	@echo ... Secante
-	@echo ... Biseccion.obj
-	@echo ... Biseccion.i
-	@echo ... Biseccion.s
-	@echo ... Ejercicio3Jacobi.obj
-	@echo ... Ejercicio3Jacobi.i
-	@echo ... Ejercicio3Jacobi.s
-	@echo ... Falsi.obj
-	@echo ... Falsi.i
-	@echo ... Falsi.s
-	@echo ... Gaus-Seidel.obj
-	@echo ... Gaus-Seidel.i
-	@echo ... Gaus-Seidel.s
-	@echo ... Gaus.obj
-	@echo ... Gaus.i
-	@echo ... Gaus.s
-	@echo ... InterpolacionLagrange.obj
-	@echo ... InterpolacionLagrange.i
-	@echo ... InterpolacionLagrange.s
-	@echo ... InterpolacionSegmentaria.obj
-	@echo ... InterpolacionSegmentaria.i
-	@echo ... InterpolacionSegmentaria.s
-	@echo ... Jacobi.obj
-	@echo ... Jacobi.i
-	@echo ... Jacobi.s
-	@echo ... Newton_Raphson.obj
-	@echo ... Newton_Raphson.i
-	@echo ... Newton_Raphson.s
-	@echo ... PuntoFijo.obj
-	@echo ... PuntoFijo.i
-	@echo ... PuntoFijo.s
-	@echo ... RegresionPolinomial.obj
-	@echo ... RegresionPolinomial.i
-	@echo ... RegresionPolinomial.s
-	@echo ... RelajacionGaus-Seidel.obj
-	@echo ... RelajacionGaus-Seidel.i
-	@echo ... RelajacionGaus-Seidel.s
-	@echo ... Secante.obj
-	@echo ... Secante.i
-	@echo ... Secante.s
+	@echo ... Simpson
+	@echo ... Trapecio
+	@echo ... Integracion/Gauss-Legendre.obj
+	@echo ... Integracion/Gauss-Legendre.i
+	@echo ... Integracion/Gauss-Legendre.s
+	@echo ... Integracion/Simpson.obj
+	@echo ... Integracion/Simpson.i
+	@echo ... Integracion/Simpson.s
+	@echo ... Integracion/Trapecio.obj
+	@echo ... Integracion/Trapecio.i
+	@echo ... Integracion/Trapecio.s
+	@echo ... Interpolacion/InterpolacionLagrange.obj
+	@echo ... Interpolacion/InterpolacionLagrange.i
+	@echo ... Interpolacion/InterpolacionLagrange.s
+	@echo ... Interpolacion/InterpolacionSegmentaria.obj
+	@echo ... Interpolacion/InterpolacionSegmentaria.i
+	@echo ... Interpolacion/InterpolacionSegmentaria.s
+	@echo ... Raices/Biseccion.obj
+	@echo ... Raices/Biseccion.i
+	@echo ... Raices/Biseccion.s
+	@echo ... Raices/Ejercicio3Jacobi.obj
+	@echo ... Raices/Ejercicio3Jacobi.i
+	@echo ... Raices/Ejercicio3Jacobi.s
+	@echo ... Raices/Falsi.obj
+	@echo ... Raices/Falsi.i
+	@echo ... Raices/Falsi.s
+	@echo ... Raices/Jacobi.obj
+	@echo ... Raices/Jacobi.i
+	@echo ... Raices/Jacobi.s
+	@echo ... Raices/Newton_Raphson.obj
+	@echo ... Raices/Newton_Raphson.i
+	@echo ... Raices/Newton_Raphson.s
+	@echo ... Raices/PuntoFijo.obj
+	@echo ... Raices/PuntoFijo.i
+	@echo ... Raices/PuntoFijo.s
+	@echo ... Raices/Secante.obj
+	@echo ... Raices/Secante.i
+	@echo ... Raices/Secante.s
+	@echo ... Regresion/RegresionPolinomial.obj
+	@echo ... Regresion/RegresionPolinomial.i
+	@echo ... Regresion/RegresionPolinomial.s
+	@echo ... SistemaDeEcuaciones/Gaus-Seidel.obj
+	@echo ... SistemaDeEcuaciones/Gaus-Seidel.i
+	@echo ... SistemaDeEcuaciones/Gaus-Seidel.s
+	@echo ... SistemaDeEcuaciones/Gaus.obj
+	@echo ... SistemaDeEcuaciones/Gaus.i
+	@echo ... SistemaDeEcuaciones/Gaus.s
+	@echo ... SistemaDeEcuaciones/RelajacionGaus-Seidel.obj
+	@echo ... SistemaDeEcuaciones/RelajacionGaus-Seidel.i
+	@echo ... SistemaDeEcuaciones/RelajacionGaus-Seidel.s
 .PHONY : help
 
 

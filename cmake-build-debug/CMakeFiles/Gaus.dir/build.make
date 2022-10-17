@@ -65,27 +65,27 @@ include CMakeFiles/Gaus.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Gaus.dir/flags.make
 
-CMakeFiles/Gaus.dir/Gaus.cpp.obj: CMakeFiles/Gaus.dir/flags.make
-CMakeFiles/Gaus.dir/Gaus.cpp.obj: ../Gaus.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Gaus.dir/Gaus.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Gaus.dir\Gaus.cpp.obj -c "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\Gaus.cpp"
+CMakeFiles/Gaus.dir/SistemaDeEcuaciones/Gaus.cpp.obj: CMakeFiles/Gaus.dir/flags.make
+CMakeFiles/Gaus.dir/SistemaDeEcuaciones/Gaus.cpp.obj: ../SistemaDeEcuaciones/Gaus.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Gaus.dir/SistemaDeEcuaciones/Gaus.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Gaus.dir\SistemaDeEcuaciones\Gaus.cpp.obj -c "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\SistemaDeEcuaciones\Gaus.cpp"
 
-CMakeFiles/Gaus.dir/Gaus.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gaus.dir/Gaus.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\Gaus.cpp" > CMakeFiles\Gaus.dir\Gaus.cpp.i
+CMakeFiles/Gaus.dir/SistemaDeEcuaciones/Gaus.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gaus.dir/SistemaDeEcuaciones/Gaus.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\SistemaDeEcuaciones\Gaus.cpp" > CMakeFiles\Gaus.dir\SistemaDeEcuaciones\Gaus.cpp.i
 
-CMakeFiles/Gaus.dir/Gaus.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gaus.dir/Gaus.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\Gaus.cpp" -o CMakeFiles\Gaus.dir\Gaus.cpp.s
+CMakeFiles/Gaus.dir/SistemaDeEcuaciones/Gaus.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gaus.dir/SistemaDeEcuaciones/Gaus.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\SistemaDeEcuaciones\Gaus.cpp" -o CMakeFiles\Gaus.dir\SistemaDeEcuaciones\Gaus.cpp.s
 
 # Object files for target Gaus
 Gaus_OBJECTS = \
-"CMakeFiles/Gaus.dir/Gaus.cpp.obj"
+"CMakeFiles/Gaus.dir/SistemaDeEcuaciones/Gaus.cpp.obj"
 
 # External object files for target Gaus
 Gaus_EXTERNAL_OBJECTS =
 
-Gaus.exe: CMakeFiles/Gaus.dir/Gaus.cpp.obj
+Gaus.exe: CMakeFiles/Gaus.dir/SistemaDeEcuaciones/Gaus.cpp.obj
 Gaus.exe: CMakeFiles/Gaus.dir/build.make
 Gaus.exe: CMakeFiles/Gaus.dir/linklibs.rsp
 Gaus.exe: CMakeFiles/Gaus.dir/objects1.rsp

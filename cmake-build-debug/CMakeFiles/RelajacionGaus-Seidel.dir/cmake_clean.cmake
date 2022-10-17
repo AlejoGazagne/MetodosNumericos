@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/RelajacionGaus-Seidel.dir/RelajacionGaus-Seidel.cpp.obj"
+  "CMakeFiles/RelajacionGaus-Seidel.dir/SistemaDeEcuaciones/RelajacionGaus-Seidel.cpp.obj"
   "RelajacionGaus-Seidel.exe"
   "RelajacionGaus-Seidel.exe.manifest"
   "RelajacionGaus-Seidel.pdb"

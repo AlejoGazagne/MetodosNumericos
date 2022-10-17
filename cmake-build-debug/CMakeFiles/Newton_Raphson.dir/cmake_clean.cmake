@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Newton_Raphson.dir/Newton_Raphson.cpp.obj"
+  "CMakeFiles/Newton_Raphson.dir/Raices/Newton_Raphson.cpp.obj"
   "Newton_Raphson.exe"
   "Newton_Raphson.exe.manifest"
   "Newton_Raphson.pdb"

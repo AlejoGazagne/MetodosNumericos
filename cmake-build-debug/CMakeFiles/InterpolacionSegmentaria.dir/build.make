@@ -65,27 +65,27 @@ include CMakeFiles/InterpolacionSegmentaria.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/InterpolacionSegmentaria.dir/flags.make
 
-CMakeFiles/InterpolacionSegmentaria.dir/InterpolacionSegmentaria.cpp.obj: CMakeFiles/InterpolacionSegmentaria.dir/flags.make
-CMakeFiles/InterpolacionSegmentaria.dir/InterpolacionSegmentaria.cpp.obj: ../InterpolacionSegmentaria.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/InterpolacionSegmentaria.dir/InterpolacionSegmentaria.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\InterpolacionSegmentaria.dir\InterpolacionSegmentaria.cpp.obj -c "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\InterpolacionSegmentaria.cpp"
+CMakeFiles/InterpolacionSegmentaria.dir/Interpolacion/InterpolacionSegmentaria.cpp.obj: CMakeFiles/InterpolacionSegmentaria.dir/flags.make
+CMakeFiles/InterpolacionSegmentaria.dir/Interpolacion/InterpolacionSegmentaria.cpp.obj: ../Interpolacion/InterpolacionSegmentaria.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/InterpolacionSegmentaria.dir/Interpolacion/InterpolacionSegmentaria.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\InterpolacionSegmentaria.dir\Interpolacion\InterpolacionSegmentaria.cpp.obj -c "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\Interpolacion\InterpolacionSegmentaria.cpp"
 
-CMakeFiles/InterpolacionSegmentaria.dir/InterpolacionSegmentaria.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/InterpolacionSegmentaria.dir/InterpolacionSegmentaria.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\InterpolacionSegmentaria.cpp" > CMakeFiles\InterpolacionSegmentaria.dir\InterpolacionSegmentaria.cpp.i
+CMakeFiles/InterpolacionSegmentaria.dir/Interpolacion/InterpolacionSegmentaria.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/InterpolacionSegmentaria.dir/Interpolacion/InterpolacionSegmentaria.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\Interpolacion\InterpolacionSegmentaria.cpp" > CMakeFiles\InterpolacionSegmentaria.dir\Interpolacion\InterpolacionSegmentaria.cpp.i
 
-CMakeFiles/InterpolacionSegmentaria.dir/InterpolacionSegmentaria.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/InterpolacionSegmentaria.dir/InterpolacionSegmentaria.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\InterpolacionSegmentaria.cpp" -o CMakeFiles\InterpolacionSegmentaria.dir\InterpolacionSegmentaria.cpp.s
+CMakeFiles/InterpolacionSegmentaria.dir/Interpolacion/InterpolacionSegmentaria.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/InterpolacionSegmentaria.dir/Interpolacion/InterpolacionSegmentaria.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\Interpolacion\InterpolacionSegmentaria.cpp" -o CMakeFiles\InterpolacionSegmentaria.dir\Interpolacion\InterpolacionSegmentaria.cpp.s
 
 # Object files for target InterpolacionSegmentaria
 InterpolacionSegmentaria_OBJECTS = \
-"CMakeFiles/InterpolacionSegmentaria.dir/InterpolacionSegmentaria.cpp.obj"
+"CMakeFiles/InterpolacionSegmentaria.dir/Interpolacion/InterpolacionSegmentaria.cpp.obj"
 
 # External object files for target InterpolacionSegmentaria
 InterpolacionSegmentaria_EXTERNAL_OBJECTS =
 
-InterpolacionSegmentaria.exe: CMakeFiles/InterpolacionSegmentaria.dir/InterpolacionSegmentaria.cpp.obj
+InterpolacionSegmentaria.exe: CMakeFiles/InterpolacionSegmentaria.dir/Interpolacion/InterpolacionSegmentaria.cpp.obj
 InterpolacionSegmentaria.exe: CMakeFiles/InterpolacionSegmentaria.dir/build.make
 InterpolacionSegmentaria.exe: CMakeFiles/InterpolacionSegmentaria.dir/linklibs.rsp
 InterpolacionSegmentaria.exe: CMakeFiles/InterpolacionSegmentaria.dir/objects1.rsp

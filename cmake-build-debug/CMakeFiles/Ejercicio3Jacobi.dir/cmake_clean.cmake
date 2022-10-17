@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Ejercicio3Jacobi.dir/Ejercicio3Jacobi.cpp.obj"
+  "CMakeFiles/Ejercicio3Jacobi.dir/Raices/Ejercicio3Jacobi.cpp.obj"
   "Ejercicio3Jacobi.exe"
   "Ejercicio3Jacobi.exe.manifest"
   "Ejercicio3Jacobi.pdb"

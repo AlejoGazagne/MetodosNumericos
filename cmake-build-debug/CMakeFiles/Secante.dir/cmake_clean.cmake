@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Secante.dir/Secante.cpp.obj"
+  "CMakeFiles/Secante.dir/Raices/Secante.cpp.obj"
   "Secante.exe"
   "Secante.exe.manifest"
   "Secante.pdb"

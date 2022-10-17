@@ -65,27 +65,27 @@ include CMakeFiles/Ejercicio3Jacobi.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Ejercicio3Jacobi.dir/flags.make
 
-CMakeFiles/Ejercicio3Jacobi.dir/Ejercicio3Jacobi.cpp.obj: CMakeFiles/Ejercicio3Jacobi.dir/flags.make
-CMakeFiles/Ejercicio3Jacobi.dir/Ejercicio3Jacobi.cpp.obj: ../Ejercicio3Jacobi.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Ejercicio3Jacobi.dir/Ejercicio3Jacobi.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Ejercicio3Jacobi.dir\Ejercicio3Jacobi.cpp.obj -c "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\Ejercicio3Jacobi.cpp"
+CMakeFiles/Ejercicio3Jacobi.dir/Raices/Ejercicio3Jacobi.cpp.obj: CMakeFiles/Ejercicio3Jacobi.dir/flags.make
+CMakeFiles/Ejercicio3Jacobi.dir/Raices/Ejercicio3Jacobi.cpp.obj: ../Raices/Ejercicio3Jacobi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Ejercicio3Jacobi.dir/Raices/Ejercicio3Jacobi.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Ejercicio3Jacobi.dir\Raices\Ejercicio3Jacobi.cpp.obj -c "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\Raices\Ejercicio3Jacobi.cpp"
 
-CMakeFiles/Ejercicio3Jacobi.dir/Ejercicio3Jacobi.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ejercicio3Jacobi.dir/Ejercicio3Jacobi.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\Ejercicio3Jacobi.cpp" > CMakeFiles\Ejercicio3Jacobi.dir\Ejercicio3Jacobi.cpp.i
+CMakeFiles/Ejercicio3Jacobi.dir/Raices/Ejercicio3Jacobi.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ejercicio3Jacobi.dir/Raices/Ejercicio3Jacobi.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\Raices\Ejercicio3Jacobi.cpp" > CMakeFiles\Ejercicio3Jacobi.dir\Raices\Ejercicio3Jacobi.cpp.i
 
-CMakeFiles/Ejercicio3Jacobi.dir/Ejercicio3Jacobi.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ejercicio3Jacobi.dir/Ejercicio3Jacobi.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\Ejercicio3Jacobi.cpp" -o CMakeFiles\Ejercicio3Jacobi.dir\Ejercicio3Jacobi.cpp.s
+CMakeFiles/Ejercicio3Jacobi.dir/Raices/Ejercicio3Jacobi.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ejercicio3Jacobi.dir/Raices/Ejercicio3Jacobi.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\Raices\Ejercicio3Jacobi.cpp" -o CMakeFiles\Ejercicio3Jacobi.dir\Raices\Ejercicio3Jacobi.cpp.s
 
 # Object files for target Ejercicio3Jacobi
 Ejercicio3Jacobi_OBJECTS = \
-"CMakeFiles/Ejercicio3Jacobi.dir/Ejercicio3Jacobi.cpp.obj"
+"CMakeFiles/Ejercicio3Jacobi.dir/Raices/Ejercicio3Jacobi.cpp.obj"
 
 # External object files for target Ejercicio3Jacobi
 Ejercicio3Jacobi_EXTERNAL_OBJECTS =
 
-Ejercicio3Jacobi.exe: CMakeFiles/Ejercicio3Jacobi.dir/Ejercicio3Jacobi.cpp.obj
+Ejercicio3Jacobi.exe: CMakeFiles/Ejercicio3Jacobi.dir/Raices/Ejercicio3Jacobi.cpp.obj
 Ejercicio3Jacobi.exe: CMakeFiles/Ejercicio3Jacobi.dir/build.make
 Ejercicio3Jacobi.exe: CMakeFiles/Ejercicio3Jacobi.dir/linklibs.rsp
 Ejercicio3Jacobi.exe: CMakeFiles/Ejercicio3Jacobi.dir/objects1.rsp

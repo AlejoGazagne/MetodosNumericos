@@ -64,4 +64,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/InterpolacionLagrange.dir/DependInfo.cmake"
   "CMakeFiles/RegresionPolinomial.dir/DependInfo.cmake"
   "CMakeFiles/InterpolacionSegmentaria.dir/DependInfo.cmake"
+  "CMakeFiles/Trapecio.dir/DependInfo.cmake"
+  "CMakeFiles/Simpson.dir/DependInfo.cmake"
+  "CMakeFiles/Gauss-Legendre.dir/DependInfo.cmake"
   )

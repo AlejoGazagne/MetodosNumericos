@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/InterpolacionSegmentaria.dir/InterpolacionSegmentaria.cpp.obj"
+  "CMakeFiles/InterpolacionSegmentaria.dir/Interpolacion/InterpolacionSegmentaria.cpp.obj"
   "InterpolacionSegmentaria.exe"
   "InterpolacionSegmentaria.exe.manifest"
   "InterpolacionSegmentaria.pdb"
