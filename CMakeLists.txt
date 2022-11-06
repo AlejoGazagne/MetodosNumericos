@@ -19,3 +19,8 @@ add_executable(InterpolacionSegmentaria Interpolacion/InterpolacionSegmentaria.c
 add_executable(Trapecio Integracion/Trapecio.cpp)
 add_executable(Simpson Integracion/Simpson.cpp)
 add_executable(Gauss-Legendre Integracion/Gauss-Legendre.cpp)
+add_executable(Euler EcuacionesDiferenciales/Euler.cpp)
+add_executable(PuntoMedio EcuacionesDiferenciales/PuntoMedio.cpp)
+add_executable(Heun EcuacionesDiferenciales/Heun.cpp)
+add_executable(RK4 EcuacionesDiferenciales/RK4.cpp)
+add_executable(Diferenciacion Diferenciacion/Diferenciacion.cpp)

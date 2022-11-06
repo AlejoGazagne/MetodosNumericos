@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Heun.dir/objects.a
+C:\mingw64\bin\ar.exe qc CMakeFiles\Heun.dir/objects.a @CMakeFiles\Heun.dir\objects1.rsp
+C:\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Heun.dir/objects.a -Wl,--no-whole-archive -o Heun.exe -Wl,--out-implib,libHeun.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Heun.dir\linklibs.rsp

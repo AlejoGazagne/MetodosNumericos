@@ -4,12 +4,12 @@
 #include <cmath>
 #include <iostream>
 
-double f(double x){ return -2*pow(x-2,2)+2; }
+double f(double x){ return sqrt(1 + pow(cos(x),2)); }
 
 int main(){
     double a, b, h;
     int n;
-    printf("Ingrese los limites de intefracion: \n");
+    printf("Ingrese los limites de integracion: \n");
     printf("Inferior: ");
     scanf("%lf", &a);
     printf("Superior: ");
@@ -19,11 +19,10 @@ int main(){
 
     double suma = f(a) + f(b);
     h = (b-a)/n;
-    for(int i = 0; i < n; i++){
-        suma = suma + 2*f(a+i*h);
+    for(int i = 1; i < n; i++){
+        suma = suma + 2*f(a+(i*h));
     }
     suma = suma * h/2;
 
     printf("El valor de la integral es: %lf\n", suma);
-
 }

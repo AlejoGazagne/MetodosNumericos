@@ -14,5 +14,10 @@ C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/CMa
 C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/CMakeFiles/Trapecio.dir
 C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/CMakeFiles/Simpson.dir
 C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/CMakeFiles/Gauss-Legendre.dir
+C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/CMakeFiles/Euler.dir
+C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/CMakeFiles/PuntoMedio.dir
+C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/CMakeFiles/Heun.dir
+C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/CMakeFiles/RK4.dir
+C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/CMakeFiles/Diferenciacion.dir
 C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/CMakeFiles/rebuild_cache.dir

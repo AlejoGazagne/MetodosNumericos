@@ -323,6 +323,191 @@ Gauss-Legendre/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gauss-Legendre.dir\build.make CMakeFiles/Gauss-Legendre.dir/build
 .PHONY : Gauss-Legendre/fast
 
+#=============================================================================
+# Target rules for targets named Euler
+
+# Build rule for target.
+Euler: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Euler
+.PHONY : Euler
+
+# fast build rule for target.
+Euler/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Euler.dir\build.make CMakeFiles/Euler.dir/build
+.PHONY : Euler/fast
+
+#=============================================================================
+# Target rules for targets named PuntoMedio
+
+# Build rule for target.
+PuntoMedio: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PuntoMedio
+.PHONY : PuntoMedio
+
+# fast build rule for target.
+PuntoMedio/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PuntoMedio.dir\build.make CMakeFiles/PuntoMedio.dir/build
+.PHONY : PuntoMedio/fast
+
+#=============================================================================
+# Target rules for targets named Heun
+
+# Build rule for target.
+Heun: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Heun
+.PHONY : Heun
+
+# fast build rule for target.
+Heun/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Heun.dir\build.make CMakeFiles/Heun.dir/build
+.PHONY : Heun/fast
+
+#=============================================================================
+# Target rules for targets named RK4
+
+# Build rule for target.
+RK4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 RK4
+.PHONY : RK4
+
+# fast build rule for target.
+RK4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RK4.dir\build.make CMakeFiles/RK4.dir/build
+.PHONY : RK4/fast
+
+#=============================================================================
+# Target rules for targets named Diferenciacion
+
+# Build rule for target.
+Diferenciacion: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Diferenciacion
+.PHONY : Diferenciacion
+
+# fast build rule for target.
+Diferenciacion/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Diferenciacion.dir\build.make CMakeFiles/Diferenciacion.dir/build
+.PHONY : Diferenciacion/fast
+
+Diferenciacion/Diferenciacion.obj: Diferenciacion/Diferenciacion.cpp.obj
+.PHONY : Diferenciacion/Diferenciacion.obj
+
+# target to build an object file
+Diferenciacion/Diferenciacion.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Diferenciacion.dir\build.make CMakeFiles/Diferenciacion.dir/Diferenciacion/Diferenciacion.cpp.obj
+.PHONY : Diferenciacion/Diferenciacion.cpp.obj
+
+Diferenciacion/Diferenciacion.i: Diferenciacion/Diferenciacion.cpp.i
+.PHONY : Diferenciacion/Diferenciacion.i
+
+# target to preprocess a source file
+Diferenciacion/Diferenciacion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Diferenciacion.dir\build.make CMakeFiles/Diferenciacion.dir/Diferenciacion/Diferenciacion.cpp.i
+.PHONY : Diferenciacion/Diferenciacion.cpp.i
+
+Diferenciacion/Diferenciacion.s: Diferenciacion/Diferenciacion.cpp.s
+.PHONY : Diferenciacion/Diferenciacion.s
+
+# target to generate assembly for a file
+Diferenciacion/Diferenciacion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Diferenciacion.dir\build.make CMakeFiles/Diferenciacion.dir/Diferenciacion/Diferenciacion.cpp.s
+.PHONY : Diferenciacion/Diferenciacion.cpp.s
+
+EcuacionesDiferenciales/Euler.obj: EcuacionesDiferenciales/Euler.cpp.obj
+.PHONY : EcuacionesDiferenciales/Euler.obj
+
+# target to build an object file
+EcuacionesDiferenciales/Euler.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Euler.dir\build.make CMakeFiles/Euler.dir/EcuacionesDiferenciales/Euler.cpp.obj
+.PHONY : EcuacionesDiferenciales/Euler.cpp.obj
+
+EcuacionesDiferenciales/Euler.i: EcuacionesDiferenciales/Euler.cpp.i
+.PHONY : EcuacionesDiferenciales/Euler.i
+
+# target to preprocess a source file
+EcuacionesDiferenciales/Euler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Euler.dir\build.make CMakeFiles/Euler.dir/EcuacionesDiferenciales/Euler.cpp.i
+.PHONY : EcuacionesDiferenciales/Euler.cpp.i
+
+EcuacionesDiferenciales/Euler.s: EcuacionesDiferenciales/Euler.cpp.s
+.PHONY : EcuacionesDiferenciales/Euler.s
+
+# target to generate assembly for a file
+EcuacionesDiferenciales/Euler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Euler.dir\build.make CMakeFiles/Euler.dir/EcuacionesDiferenciales/Euler.cpp.s
+.PHONY : EcuacionesDiferenciales/Euler.cpp.s
+
+EcuacionesDiferenciales/Heun.obj: EcuacionesDiferenciales/Heun.cpp.obj
+.PHONY : EcuacionesDiferenciales/Heun.obj
+
+# target to build an object file
+EcuacionesDiferenciales/Heun.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Heun.dir\build.make CMakeFiles/Heun.dir/EcuacionesDiferenciales/Heun.cpp.obj
+.PHONY : EcuacionesDiferenciales/Heun.cpp.obj
+
+EcuacionesDiferenciales/Heun.i: EcuacionesDiferenciales/Heun.cpp.i
+.PHONY : EcuacionesDiferenciales/Heun.i
+
+# target to preprocess a source file
+EcuacionesDiferenciales/Heun.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Heun.dir\build.make CMakeFiles/Heun.dir/EcuacionesDiferenciales/Heun.cpp.i
+.PHONY : EcuacionesDiferenciales/Heun.cpp.i
+
+EcuacionesDiferenciales/Heun.s: EcuacionesDiferenciales/Heun.cpp.s
+.PHONY : EcuacionesDiferenciales/Heun.s
+
+# target to generate assembly for a file
+EcuacionesDiferenciales/Heun.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Heun.dir\build.make CMakeFiles/Heun.dir/EcuacionesDiferenciales/Heun.cpp.s
+.PHONY : EcuacionesDiferenciales/Heun.cpp.s
+
+EcuacionesDiferenciales/PuntoMedio.obj: EcuacionesDiferenciales/PuntoMedio.cpp.obj
+.PHONY : EcuacionesDiferenciales/PuntoMedio.obj
+
+# target to build an object file
+EcuacionesDiferenciales/PuntoMedio.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PuntoMedio.dir\build.make CMakeFiles/PuntoMedio.dir/EcuacionesDiferenciales/PuntoMedio.cpp.obj
+.PHONY : EcuacionesDiferenciales/PuntoMedio.cpp.obj
+
+EcuacionesDiferenciales/PuntoMedio.i: EcuacionesDiferenciales/PuntoMedio.cpp.i
+.PHONY : EcuacionesDiferenciales/PuntoMedio.i
+
+# target to preprocess a source file
+EcuacionesDiferenciales/PuntoMedio.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PuntoMedio.dir\build.make CMakeFiles/PuntoMedio.dir/EcuacionesDiferenciales/PuntoMedio.cpp.i
+.PHONY : EcuacionesDiferenciales/PuntoMedio.cpp.i
+
+EcuacionesDiferenciales/PuntoMedio.s: EcuacionesDiferenciales/PuntoMedio.cpp.s
+.PHONY : EcuacionesDiferenciales/PuntoMedio.s
+
+# target to generate assembly for a file
+EcuacionesDiferenciales/PuntoMedio.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PuntoMedio.dir\build.make CMakeFiles/PuntoMedio.dir/EcuacionesDiferenciales/PuntoMedio.cpp.s
+.PHONY : EcuacionesDiferenciales/PuntoMedio.cpp.s
+
+EcuacionesDiferenciales/RK4.obj: EcuacionesDiferenciales/RK4.cpp.obj
+.PHONY : EcuacionesDiferenciales/RK4.obj
+
+# target to build an object file
+EcuacionesDiferenciales/RK4.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RK4.dir\build.make CMakeFiles/RK4.dir/EcuacionesDiferenciales/RK4.cpp.obj
+.PHONY : EcuacionesDiferenciales/RK4.cpp.obj
+
+EcuacionesDiferenciales/RK4.i: EcuacionesDiferenciales/RK4.cpp.i
+.PHONY : EcuacionesDiferenciales/RK4.i
+
+# target to preprocess a source file
+EcuacionesDiferenciales/RK4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RK4.dir\build.make CMakeFiles/RK4.dir/EcuacionesDiferenciales/RK4.cpp.i
+.PHONY : EcuacionesDiferenciales/RK4.cpp.i
+
+EcuacionesDiferenciales/RK4.s: EcuacionesDiferenciales/RK4.cpp.s
+.PHONY : EcuacionesDiferenciales/RK4.s
+
+# target to generate assembly for a file
+EcuacionesDiferenciales/RK4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RK4.dir\build.make CMakeFiles/RK4.dir/EcuacionesDiferenciales/RK4.cpp.s
+.PHONY : EcuacionesDiferenciales/RK4.cpp.s
+
 Integracion/Gauss-Legendre.obj: Integracion/Gauss-Legendre.cpp.obj
 .PHONY : Integracion/Gauss-Legendre.obj
 
@@ -716,21 +901,41 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Biseccion
+	@echo ... Diferenciacion
 	@echo ... Ejercicio3Jacobi
+	@echo ... Euler
 	@echo ... Falsi
 	@echo ... Gaus
 	@echo ... Gaus-Seidel
 	@echo ... Gauss-Legendre
+	@echo ... Heun
 	@echo ... InterpolacionLagrange
 	@echo ... InterpolacionSegmentaria
 	@echo ... Jacobi
 	@echo ... Newton_Raphson
 	@echo ... PuntoFijo
+	@echo ... PuntoMedio
+	@echo ... RK4
 	@echo ... RegresionPolinomial
 	@echo ... RelajacionGaus-Seidel
 	@echo ... Secante
 	@echo ... Simpson
 	@echo ... Trapecio
+	@echo ... Diferenciacion/Diferenciacion.obj
+	@echo ... Diferenciacion/Diferenciacion.i
+	@echo ... Diferenciacion/Diferenciacion.s
+	@echo ... EcuacionesDiferenciales/Euler.obj
+	@echo ... EcuacionesDiferenciales/Euler.i
+	@echo ... EcuacionesDiferenciales/Euler.s
+	@echo ... EcuacionesDiferenciales/Heun.obj
+	@echo ... EcuacionesDiferenciales/Heun.i
+	@echo ... EcuacionesDiferenciales/Heun.s
+	@echo ... EcuacionesDiferenciales/PuntoMedio.obj
+	@echo ... EcuacionesDiferenciales/PuntoMedio.i
+	@echo ... EcuacionesDiferenciales/PuntoMedio.s
+	@echo ... EcuacionesDiferenciales/RK4.obj
+	@echo ... EcuacionesDiferenciales/RK4.i
+	@echo ... EcuacionesDiferenciales/RK4.s
 	@echo ... Integracion/Gauss-Legendre.obj
 	@echo ... Integracion/Gauss-Legendre.i
 	@echo ... Integracion/Gauss-Legendre.s

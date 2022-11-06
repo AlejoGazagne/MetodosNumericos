@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/EcuacionesDiferenciales/Euler.cpp
+cstdio
+-
+iostream
+-
+cmath
+-
+

@@ -30,7 +30,12 @@
 						12,
 						13,
 						14,
-						15
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
 					]
 				}
 			],
@@ -60,7 +65,12 @@
 						12,
 						13,
 						14,
-						15
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
 					]
 				}
 			],
@@ -75,9 +85,23 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "Diferenciacion::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Diferenciacion-Debug-eba023c6fcccf0744683.json",
+					"name" : "Diferenciacion",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "Ejercicio3Jacobi::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Ejercicio3Jacobi-Debug-1ce356debffb376efacb.json",
 					"name" : "Ejercicio3Jacobi",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Euler::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Euler-Debug-be0ba9b0f892a52f0cec.json",
+					"name" : "Euler",
 					"projectIndex" : 0
 				},
 				{
@@ -106,6 +130,13 @@
 					"id" : "Gauss-Legendre::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Gauss-Legendre-Debug-e7ef69587707ce764875.json",
 					"name" : "Gauss-Legendre",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Heun::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Heun-Debug-105ef3c173808b1ee5c9.json",
+					"name" : "Heun",
 					"projectIndex" : 0
 				},
 				{
@@ -141,6 +172,20 @@
 					"id" : "PuntoFijo::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-PuntoFijo-Debug-9e1800482069bd3e9e30.json",
 					"name" : "PuntoFijo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PuntoMedio::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PuntoMedio-Debug-11986399a5272740effa.json",
+					"name" : "PuntoMedio",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "RK4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RK4-Debug-36346d843b55dffd16e0.json",
+					"name" : "RK4",
 					"projectIndex" : 0
 				},
 				{

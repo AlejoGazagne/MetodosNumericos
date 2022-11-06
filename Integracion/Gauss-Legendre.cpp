@@ -8,7 +8,7 @@
 
 using namespace std;
 
-double f(double x) { return 2*pow(x,3); }
+double f(double x) { return sin(x+1)/(x+1); }
 
 int main(){
     double a, b;
