@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\TrapecioTabla.dir/objects.a
+C:\mingw64\bin\ar.exe qc CMakeFiles\TrapecioTabla.dir/objects.a @CMakeFiles\TrapecioTabla.dir\objects1.rsp
+C:\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\TrapecioTabla.dir/objects.a -Wl,--no-whole-archive -o TrapecioTabla.exe -Wl,--out-implib,libTrapecioTabla.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\TrapecioTabla.dir\linklibs.rsp

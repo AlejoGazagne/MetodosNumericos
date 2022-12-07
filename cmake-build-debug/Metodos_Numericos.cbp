@@ -605,6 +605,48 @@
 					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="TrapecioTabla">
+				<Option output="C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/TrapecioTabla.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 TrapecioTabla"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TrapecioTabla/fast">
+				<Option output="C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/TrapecioTabla.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 TrapecioTabla/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="Simpson">
 				<Option output="C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Simpson.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug"/>
@@ -642,6 +684,90 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 Simpson/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ejercicio">
+				<Option output="C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/ejercicio.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 ejercicio"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ejercicio/fast">
+				<Option output="C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/ejercicio.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 ejercicio/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SimpsonTabla">
+				<Option output="C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/SimpsonTabla.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 SimpsonTabla"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SimpsonTabla/fast">
+				<Option output="C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/SimpsonTabla.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 SimpsonTabla/fast"/>
 					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -857,6 +983,90 @@
 					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="EDOEuler">
+				<Option output="C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/EDOEuler.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 EDOEuler"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EDOEuler/fast">
+				<Option output="C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/EDOEuler.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 EDOEuler/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EDORk4">
+				<Option output="C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/EDORk4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 EDORk4"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EDORk4/fast">
+				<Option output="C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/EDORk4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 EDORk4/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="Diferenciacion">
 				<Option output="C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Diferenciacion.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug"/>
@@ -899,6 +1109,48 @@
 					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="DiferenciacionTabla">
+				<Option output="C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/DiferenciacionTabla.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 DiferenciacionTabla"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DiferenciacionTabla/fast">
+				<Option output="C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/DiferenciacionTabla.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 DiferenciacionTabla/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/cmake-build-debug"/>
 				<Option type="4"/>
@@ -923,6 +1175,15 @@
 		<Unit filename="C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/Diferenciacion/Diferenciacion.cpp">
 			<Option target="Diferenciacion"/>
 		</Unit>
+		<Unit filename="C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/Diferenciacion/DiferenciacionTabla.cpp">
+			<Option target="DiferenciacionTabla"/>
+		</Unit>
+		<Unit filename="C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/EcuacionesDiferenciales/EDOEuler.cpp">
+			<Option target="EDOEuler"/>
+		</Unit>
+		<Unit filename="C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/EcuacionesDiferenciales/EDORk4.cpp">
+			<Option target="EDORk4"/>
+		</Unit>
 		<Unit filename="C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/EcuacionesDiferenciales/Euler.cpp">
 			<Option target="Euler"/>
 		</Unit>
@@ -941,8 +1202,17 @@
 		<Unit filename="C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/Integracion/Simpson.cpp">
 			<Option target="Simpson"/>
 		</Unit>
+		<Unit filename="C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/Integracion/SimpsonTabla.cpp">
+			<Option target="SimpsonTabla"/>
+		</Unit>
 		<Unit filename="C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/Integracion/Trapecio.cpp">
 			<Option target="Trapecio"/>
+		</Unit>
+		<Unit filename="C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/Integracion/TrapecioTabla.cpp">
+			<Option target="TrapecioTabla"/>
+		</Unit>
+		<Unit filename="C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/Integracion/ejercicio.cpp">
+			<Option target="ejercicio"/>
 		</Unit>
 		<Unit filename="C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/Interpolacion/InterpolacionLagrange.cpp">
 			<Option target="InterpolacionLagrange"/>

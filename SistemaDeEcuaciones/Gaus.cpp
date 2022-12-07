@@ -83,7 +83,7 @@ double normaEuclidiana(double m[FILAS][COLUMNAS], int filas, int columnas){
         }
     }
     norma = sqrt(norma);
-
+    return norma;
 }
 
 void triangulacion(double m[FILAS][COLUMNAS], int filas, int columnas){

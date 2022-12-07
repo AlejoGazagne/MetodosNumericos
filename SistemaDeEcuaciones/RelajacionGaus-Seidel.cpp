@@ -1,10 +1,12 @@
 #include <cmath>
 #include <iostream>
-#define FILAS 10
-#define COLUMNAS 10
+#define FILAS 15
+#define COLUMNAS 16
+
+void escritura(double m[FILAS][COLUMNAS]);
 
 int main(){
-    FILE *fp;
+    /*FILE *fp;
     char ch;
     fp = fopen("datos.dat","r");
     if ( fp == nullptr ) {
@@ -51,7 +53,42 @@ int main(){
             printf("%lf ",m[i][j]);
         }
         printf("\n");
+    }*/
+    //Para usar la banda, las columnas y las filas deben estar bien definidas
+    int filas=0;
+    char c;
+    int maxValues = 0;
+    int columnas;
+    double m[FILAS][COLUMNAS] = {0.};
+    for(int i = 0; i < FILAS; i++){
+        for(int j = 0; j < COLUMNAS; j++){
+            if(i == j){
+                if(i==0){
+                    m[i][j] = 1;
+                    m[i][COLUMNAS-1] = 1;
+                } else if(i == FILAS-1){
+                    m[i][j] = 1;
+                    m[i][COLUMNAS-1] = 1;
+                } else {
+                    m[i][j-1] = 1;
+                    m[i][j] = -2;
+                    m[i][j+1] = 1;
+                    m[i][COLUMNAS-1] = 1;
+                }
+            }
+        }
     }
+    filas = FILAS;
+    columnas = COLUMNAS;
+    //imprimo la matriz para verificar que se leyo correctamente
+    for(int i=0;i<filas;i++) {
+        for(int j=0;j<columnas;j++) {
+            printf("%d ",(int) m[i][j]);
+        }
+        printf("\n");
+    }
+    escritura(m);
+    // FIN de BANDA
 
     // VERIFICAR SI ES DIAGONALMENTE DOMiNANTE
     for(int i = 0; i < filas; i++){
@@ -93,14 +130,29 @@ int main(){
         }
 
         error = sqrt(error);
-    } while(tolerancia < error && iter < 10000);
+    } while(tolerancia < error && iter < 1000);
 
     if(iter == 10000) printf("Limite de iteraciones alcanzado\n");
 
     printf("El conjunto solucion es: \n");
     for(int i = 0;i < filas; i++){
-        printf("%lf ", xn[i]);
+        printf("x%d: %lf ", i, xn[i]);
     }
     printf("\n");
     printf("Error: %lf, en %d iteraciones\n", error, iter);
+}
+
+void escritura(double m[FILAS][COLUMNAS]) {
+
+    FILE *readPtr;
+    int j, i, n;
+    double k;
+    readPtr = fopen("matrixBuild.txt", "w");
+    for (i = 0; i < FILAS; i++) {
+        for (j = 0; j < COLUMNAS-1; j++) {
+            fprintf(readPtr, "%lf\t", m[i][j]);
+        }
+        fprintf(readPtr, "%lf\n", m[i][COLUMNAS-1]);
+    }
+    fclose(readPtr);
 }

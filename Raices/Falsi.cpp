@@ -33,13 +33,14 @@ int main(){
         cv = cn;
         cn = (f(b)*a-f(a)*b)/(f(b)-f(a));
         e = fabs(cn - cv);
-        //ep = fabs((cn-cv)/cn)*100;
+        ep = fabs((cn-cv)/cn)*100;
         cont++;
 
     } while(e > t);
 
     printf("\nResultados Regula Falsi:\n");
-    printf("El valor de la raiz es %.12lf con error de %.12lf\n", cn, e);
+    printf("El valor de la raiz es %.12lf\nError aproximado de %.12lf\n", cn, e);
+    printf("Error porcentual %lf\n", ep);
     printf("La funcion evaluada en la raiz es igual a: %lf\n", f(cn));
     printf("Iteracion: %d \n", cont);
 

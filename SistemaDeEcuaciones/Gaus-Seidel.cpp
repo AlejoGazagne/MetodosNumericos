@@ -1,10 +1,12 @@
 #include <cmath>
 #include <iostream>
-#define FILAS 10
-#define COLUMNAS 10
+#define FILAS 15
+#define COLUMNAS 16
+
+void escritura(double m[FILAS][COLUMNAS]);
 
 int main(){
-    FILE *fp;
+    /*FILE *fp;
     char ch;
     fp = fopen("datos.dat","r");
     if ( fp == nullptr ) {
@@ -30,7 +32,6 @@ int main(){
     fp = fopen("datos.dat","r");
     double m[filas][10];
 
-
     //Cargo los datos leidos en el array
     int i, j;
     for(i = 0; i < filas; i++) {
@@ -51,75 +52,100 @@ int main(){
             printf("%lf ",m[i][j]);
         }
         printf("\n");
-    }
+    }*/
 
-    // VERIFICAR SI ES DIAGONALMENTE DOMiNANTE
-    for(int i = 0; i < filas; i++){
-        double suma = 0.;
-        for(int j = 0; j < columnas-1; j++){
-            if(i != j){
-                suma = suma + fabs(m[i][j]);
+    //Para usar la banda, las columnas y las filas deben estar bien definidas
+    int filas=0;
+    char c;
+    int maxValues = 0;
+    int columnas;
+    double m[FILAS][COLUMNAS] = {0.};
+    for(int i = 0; i < FILAS; i++){
+        for(int j = 0; j < COLUMNAS; j++){
+            if(i == j){
+                if(i==0){
+                    m[i][j] = 1;
+                    m[i][COLUMNAS-1] = 1;
+                } else if(i == FILAS-1){
+                    m[i][j] = 1;
+                    m[i][COLUMNAS-1] = 1;
+                } else {
+                    m[i][j-1] = 1;
+                    m[i][j] = -2;
+                    m[i][j+1] = 1;
+                    m[i][COLUMNAS-1] = 1;
+                }
             }
         }
-        if(fabs(m[i][i]) <= suma){
+    }
+    filas = FILAS;
+    columnas = COLUMNAS;
+    //imprimo la matriz para verificar que se leyo correctamente
+    for(int i=0;i<filas;i++) {
+        for(int j=0;j<columnas;j++) {
+            printf("%d ",(int) m[i][j]);
+        }
+        printf("\n");
+    }
+    escritura(m);
+    // FIN de BANDA
+
+    // VERIFICAR SI ES DIAGONALMENTE DOMiNANTE
+    for(int t = 0; t < filas; t++){
+        double suma = 0.;
+        for(int k = 0; k < columnas - 1; k++){
+            if(t != k){
+                suma = suma + fabs(m[t][k]);
+            }
+        }
+        if(fabs(m[t][t]) <= suma){
             printf("La matriz no es digonalmente dominante\n");
         }
     }
 
     double xv[FILAS] = {0.};
     double xn[FILAS] = {0.};
-    double tolerancia = pow(10,-4);
+    double tolerancia = pow(10,-8);
     double error = 0.;
     int iter = 0;
     do{
         error = 0.;
         iter++;
-
-        for (int i = 0; i < filas; i++) {
-            double sum = 0;
-            for (int j = 0; j < columnas; j++) {
-                if (i != j) {
-                    sum = sum + m[i][j] * xv[j];
+        for (int t = 0; t < filas; t++) {
+            double sum = 0.;
+            for (int k = 0; k < columnas - 1; k++) {
+                if (t != k) {
+                    sum = sum + m[t][k] * xv[k];
                 }
             }
-            xn[i] = (m[i][columnas-1] - sum) / m[i][i];
-            error = error + pow((xn[i] - xv[i]), 2);
-            xv[i] = xn[i];
+            xn[t] = (m[t][columnas-1] - sum) / m[t][t];
+            error = error + pow((xn[t] - xv[t]), 2);
+            xv[t] = xn[t];
         }
-
         error = sqrt(error);
-    } while(tolerancia < error && iter < 10000);
+    } while(tolerancia < error && iter < 1000);
 
     if(iter == 10000) printf("Limite de iteraciones alcanzado\n");
 
     printf("El conjunto solucion es: \n");
     for(int i = 0;i < filas; i++){
-        printf("x%d: %lf ", i+1, xn[i]);
+        printf("x%d: %lf\t", i+1, xn[i]);
     }
     printf("\n");
     printf("Error: %.12lf, en %d iteraciones\n", error, iter);
 }
-/*
-void banda(double m[MAXROW][MAXCOL], double b[MAXROW], int *rows, int *columns) {
-    *rows = MAXROW;
-    *columns = MAXCOL;
-    for (int i = 0; i < MAXROW; i++) {
-        for (int j = 0; j < MAXCOL; j++) {
-            if (i == 0 && j == 0) {
-                m[i][j] = 1;
-            } else if (i == MAXROW-1 && j == MAXROW-1) {
-                m[i][j] = 1;
-            } else if (j == i - 1 && i != MAXROW -1) {
-                m[i][j] = 1;
-            } else if (j == i) {
-                m[i][j] = -2;
-            } else if (j == i + 1 && i != 0) {
-                m[i][j] = 1;
-            } else {
-                m[i][j] = 0;
-            }
-            b[i] = 1;
+
+void escritura(double m[FILAS][COLUMNAS]) {
+
+    FILE *readPtr;
+    int j, i, n;
+    double k;
+    readPtr = fopen("matrixBuild.txt", "w");
+    for (i = 0; i < FILAS; i++) {
+        for (j = 0; j < COLUMNAS-1; j++) {
+            fprintf(readPtr, "%lf\t", m[i][j]);
         }
+        fprintf(readPtr, "%lf\n", m[i][COLUMNAS-1]);
     }
+    fclose(readPtr);
 }
-*/

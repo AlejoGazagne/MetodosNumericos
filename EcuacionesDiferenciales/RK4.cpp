@@ -5,7 +5,8 @@
 
 using namespace std;
 
-double f(double x, double y) {return 1+x*sin(y*x);}
+//double f(double x, double y) {return 1+x*sin(y*x);}
+double f(double x, double y) {return (4*y-x*x)*y;}
 
 int main(){
     FILE *file;

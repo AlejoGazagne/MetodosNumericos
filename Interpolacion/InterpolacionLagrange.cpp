@@ -4,16 +4,16 @@
 #include <cmath>
 #include <iostream>
 #define COLUMNAS 2
-#define FILAS 10
+#define FILAS 21
 
 using namespace std;
 
-void triangulacion(double m[10][10], int filas, int columnas);
-void retrosustitucion(double m[10][10], int filas, int columnas, double x[]);
-void pivoteo(double m[10][10], int filas, int columnas, int i);
+void triangulacion(double m[FILAS][FILAS+1], int filas, int columnas);
+void retrosustitucion(double m[FILAS][FILAS+1], int filas, int columnas, double x[]);
+void pivoteo(double m[FILAS][FILAS+1], int filas, int columnas, int i);
 
 //double funcion(double x) { return exp(-pow(x,2)); }
-double funcion(double x) { return x+(2/x); }
+double funcion(double x) { return 1-0.0100000000*x +0.0010000000*pow(x, 2); }
 
 int main() {
     FILE *fp;
@@ -88,7 +88,7 @@ int main() {
     printf("---------------------------\n");
 
     // CALCULAR EL POLINOMIO INTERPOLADOR
-    double A[10][10];
+    double A[FILAS][FILAS+1];
     for(int i = 0; i < filas; i++){
         for(int j = 0; j < filas; j++){
             A[i][j] = pow(node[i][0], j);
@@ -98,7 +98,7 @@ int main() {
 
     //imprimo la matriz para verificar que lo leyo correctamente
     for(int i = 0; i < filas; i++) {
-        for(j = 0; j < filas; j++) {
+        for(j = 0; j < filas+1; j++) {
             printf("%lf ",A[i][j]);
         }
         printf("\n");
@@ -109,7 +109,7 @@ int main() {
     retrosustitucion(A, filas, filas+1, sol);
 
 }
-void triangulacion(double m[10][10], int filas, int columnas){
+void triangulacion(double m[FILAS][FILAS+1], int filas, int columnas){
     // Triangulaciòn
 
     for (int i = 0; i < filas; i++) {
@@ -142,7 +142,7 @@ void triangulacion(double m[10][10], int filas, int columnas){
     printf("\n");
 }
 
-void retrosustitucion(double m[10][10], int filas, int columnas, double x[]){
+void retrosustitucion(double m[FILAS][FILAS+1], int filas, int columnas, double x[]){
 
     double value = 0.;
     value = m[filas-1][columnas-1]/m[filas-1][columnas-2];
@@ -162,7 +162,7 @@ void retrosustitucion(double m[10][10], int filas, int columnas, double x[]){
     printf("\n");
 }
 
-void pivoteo(double m[10][10], int filas, int columnas, int i){
+void pivoteo(double m[FILAS][FILAS+1], int filas, int columnas, int i){
     int p = i;
     double tolerancia = pow(10, -3);
 

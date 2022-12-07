@@ -3,14 +3,14 @@
 #include <cfloat>
 #include <cmath>
 #include <iostream>
-#define COLUMNAS 2
+#define COLUMNAS 15
 #define FILAS 10
 
 using namespace std;
 
-void triangulacion(double m[10][10], int filas, int columnas);
-void retrosustitucion(double m[10][10], int filas, int columnas, double x[]);
-void pivoteo(double m[10][10], int filas, int columnas, int i);
+void triangulacion(double m[FILAS][COLUMNAS], int filas, int columnas);
+void retrosustitucion(double m[FILAS][COLUMNAS], int filas, int columnas, double x[]);
+void pivoteo(double m[FILAS][COLUMNAS], int filas, int columnas, int i);
 
 int main() {
     FILE *fp;
@@ -67,7 +67,7 @@ int main() {
     p = p+1;
 
     // ARMAR LA MATRIZ AUMENTADA
-    double A[10][10];
+    double A[FILAS][COLUMNAS];
     for(int l = 0; l < p; l++){
         double sumaxy = 0;
         for(int i = 0; i < filas; i++){
@@ -100,6 +100,7 @@ int main() {
     double Ym = 0;
     double e = 0;
     double st = 0;
+    double ecm = 0;
     double r = 0;
 
     for(int i = 0; i < filas; i++){
@@ -115,13 +116,15 @@ int main() {
         st = st + pow(n[i][1] - Ym, 2);
     }
     r = sqrt(fabs(e-st)/st);
+    ecm = sqrt(e/filas);
 
     printf("El error es de: %lf\n", e);
+    printf("El error cuadratico medio es: %lf\n", ecm);
     printf("El coeficiente de correlacion es: %lf\n", r);
-    printf("El valor st es: %lf\n", st);
+    printf("El st es: %lf", st);
 }
 
-void triangulacion(double m[10][10], int filas, int columnas){
+void triangulacion(double m[FILAS][COLUMNAS], int filas, int columnas){
     // Triangulaciòn
 
     for (int i = 0; i < filas; i++) {
@@ -155,7 +158,7 @@ void triangulacion(double m[10][10], int filas, int columnas){
     printf("\n");
 }
 
-void retrosustitucion(double m[FILAS][FILAS+1], int filas, int columnas, double x[]){
+void retrosustitucion(double m[FILAS][COLUMNAS], int filas, int columnas, double x[]){
 
     double value = 0.;
     value = m[filas-1][columnas-1]/m[filas-1][columnas-2];
@@ -175,7 +178,7 @@ void retrosustitucion(double m[FILAS][FILAS+1], int filas, int columnas, double 
     printf("\n");
 }
 
-void pivoteo(double m[10][10], int filas, int columnas, int i){
+void pivoteo(double m[FILAS][COLUMNAS], int filas, int columnas, int i){
     int p = i;
     double tolerancia = pow(10, -3);
 

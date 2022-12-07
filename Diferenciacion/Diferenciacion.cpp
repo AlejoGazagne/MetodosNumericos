@@ -111,7 +111,6 @@ int main(){
                 fp = (3*f(xi)-14*f(xi-h)+26*f(xi-2*h)-24*f(xi-3*h)+11*f(xi-4*h)-2*f(xi-5*h))/(pow(h,4));
                 fprintf(file, "%lf\t%lf\n",xi , fp);
             }
-
             break;
         default:
             printf("La opcion ingresada es incorrecta\n");

@@ -5,8 +5,13 @@
 
 using namespace std;
 
-double f(double x, double y) {return (1+x)* sqrt(y);}
-//dy/dx -> x y
+//double f(double x, double y){ return (1+x)*sqrt(y); }
+//double f(double x, double y){ return x*x - y; }
+double f(double x, double y){ return exp(-2*x) - 2*y; }
+//double f(double x, double y) {return (4*y-x*x)*y;}
+//dv = 10 - 0.01*pow(v, 3/2) -> = 10 - 0.01*pow(y, 3/2)
+//dt
+//double F(double x) {return pow(x/2+pow(x,2)/4+1,2);}
 
 int main(){
     FILE *file;
@@ -34,10 +39,11 @@ int main(){
     h = (xf-x[0])/n;
 
     // Calculamos y1
-    for(int i = 0; i < n; i++){
+    for(int i = 0; i < n + 1; i++){
         y[i+1] = y[i] + h*f(x[i], y[i]);
         x[i+1] = x[i] + h;
-        fprintf(file, "%lf\t%lf\n",x[i] , y[i]);
+        fprintf(file, "%lf\t%.12lf\n",x[i] , y[i]);
+        //fprintf(file, "%lf\t%.12lf\terror: %lf\n",x[i] , y[i], fabs(y[i]-F(x[i])));//error exacto
     }
 
     // Calculamos y2

@@ -11,27 +11,33 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="Metodos_Numericos" targetName="PuntoFijo" />
-      <config projectName="Metodos_Numericos" targetName="Ejercicio3Jacobi" />
       <config projectName="Metodos_Numericos" targetName="Gauss-Legendre" />
       <config projectName="Metodos_Numericos" targetName="Falsi" />
       <config projectName="Metodos_Numericos" targetName="Metodos_Numericos" />
       <config projectName="Metodos_Numericos" targetName="Jacobi" />
       <config projectName="Metodos_Numericos" targetName="Gaus-Seidel" />
-      <config projectName="Metodos_Numericos" targetName="RK4" />
-      <config projectName="Metodos_Numericos" targetName="RelajacionGaus-Seidel" />
       <config projectName="Metodos_Numericos" targetName="Trapecio" />
-      <config projectName="Metodos_Numericos" targetName="Biseccion" />
       <config projectName="Metodos_Numericos" targetName="Gaus" />
       <config projectName="Metodos_Numericos" targetName="RegresionPolinomial" />
       <config projectName="Metodos_Numericos" targetName="Secante" />
-      <config projectName="Metodos_Numericos" targetName="Heun" />
       <config projectName="Metodos_Numericos" targetName="InterpolacionSegmentaria" />
       <config projectName="Metodos_Numericos" targetName="Simpson" />
+      <config projectName="Metodos_Numericos" targetName="DiferenciacionTabla" />
+      <config projectName="Metodos_Numericos" targetName="EDOEuler" />
+      <config projectName="Metodos_Numericos" targetName="Newton_Raphson" />
+      <config projectName="Metodos_Numericos" targetName="PuntoFijo" />
+      <config projectName="Metodos_Numericos" targetName="Ejercicio3Jacobi" />
+      <config projectName="Metodos_Numericos" targetName="TrapecioTabla" />
+      <config projectName="Metodos_Numericos" targetName="RK4" />
+      <config projectName="Metodos_Numericos" targetName="RelajacionGaus-Seidel" />
+      <config projectName="Metodos_Numericos" targetName="Biseccion" />
+      <config projectName="Metodos_Numericos" targetName="Heun" />
+      <config projectName="Metodos_Numericos" targetName="ejercicio" />
       <config projectName="Metodos_Numericos" targetName="Diferenciacion" />
       <config projectName="Metodos_Numericos" targetName="PuntoMedio" />
+      <config projectName="Metodos_Numericos" targetName="EDORk4" />
+      <config projectName="Metodos_Numericos" targetName="SimpsonTabla" />
       <config projectName="Metodos_Numericos" targetName="InterpolacionLagrange" />
-      <config projectName="Metodos_Numericos" targetName="Newton_Raphson" />
       <config projectName="Metodos_Numericos" targetName="Euler" />
     </generated>
   </component>
@@ -42,63 +48,196 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b05f6f34-c7ba-4894-ba3b-f9972127bb9f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Diferenciacion/Diferenciacion.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EcuacionesDiferenciales/Euler.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EcuacionesDiferenciales/Heun.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EcuacionesDiferenciales/PuntoMedio.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EcuacionesDiferenciales/RK4.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EcuacionesDiferenciales/RK4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interpolacion/nodos.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Diferenciacion/DiferenciacionTabla.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Diferenciacion/derivadas.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Diferenciacion/nodos.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EcuacionesDiferenciales/EDOEuler.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EcuacionesDiferenciales/EDORk4.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EcuacionesDiferenciales/resultadosEulerSistEDOs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EcuacionesDiferenciales/resultadosRK4SistEDOs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Integracion/SimpsonTabla.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Integracion/TrapecioTabla.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Integracion/ejercicio.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Integracion/matrixBuild.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Integracion/nodos.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Regresion/nodos.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaDeEcuaciones/matrixBuild.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/matrixBuild.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Diferenciacion/Diferenciacion.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Diferenciacion/Diferenciacion.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EcuacionesDiferenciales/Euler.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/EcuacionesDiferenciales/Euler.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EcuacionesDiferenciales/Euler.txt" beforeDir="false" afterPath="$PROJECT_DIR$/EcuacionesDiferenciales/Euler.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EcuacionesDiferenciales/RK4.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/EcuacionesDiferenciales/RK4.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EcuacionesDiferenciales/RK4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/EcuacionesDiferenciales/RK4.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Integracion/Gauss-Legendre.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Integracion/Gauss-Legendre.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Integracion/Simpson.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Integracion/Simpson.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Integracion/Trapecio.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Integracion/Trapecio.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interpolacion/InterpolacionSegmentaria.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Interpolacion/InterpolacionSegmentaria.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-1948b051bfd472414765.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2022-10-17T22-05-30-0160.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interpolacion/InterpolacionLagrange.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Interpolacion/InterpolacionLagrange.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interpolacion/nodos.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Interpolacion/nodos.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Raices/Biseccion.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Raices/Biseccion.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Raices/Falsi.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Raices/Falsi.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Raices/PuntoFijo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Raices/PuntoFijo.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Regresion/RegresionPolinomial.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Regresion/RegresionPolinomial.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaDeEcuaciones/Gaus-Seidel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaDeEcuaciones/Gaus-Seidel.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaDeEcuaciones/Gaus.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaDeEcuaciones/Gaus.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaDeEcuaciones/RelajacionGaus-Seidel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaDeEcuaciones/RelajacionGaus-Seidel.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaDeEcuaciones/datos.dat" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaDeEcuaciones/datos.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-8c38b4d5a365d9b1faf5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-4f8f16ed6defa9b72454.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-e2993a9efe3b81b4a696.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2022-11-05T22-06-57-0576.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Biseccion-Debug-c7181e0f87e02488af8b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Diferenciacion-Debug-eba023c6fcccf0744683.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Ejercicio3Jacobi-Debug-1ce356debffb376efacb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Euler-Debug-be0ba9b0f892a52f0cec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Falsi-Debug-5abcb4f6afca239db092.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Gaus-Debug-d1a68d18499ab2be6de7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Gaus-Seidel-Debug-1b027b1c40fd86ab5e14.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Gauss-Legendre-Debug-e7ef69587707ce764875.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Heun-Debug-105ef3c173808b1ee5c9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-InterpolacionLagrange-Debug-cd87f8178b09f480f0aa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-InterpolacionSegmentaria-Debug-b8cb141e24f7e0eaa75a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Jacobi-Debug-6d84b41526d58cc01c58.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Newton_Raphson-Debug-fd6093f16c3dce986629.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-PuntoFijo-Debug-9e1800482069bd3e9e30.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-PuntoMedio-Debug-11986399a5272740effa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-RK4-Debug-36346d843b55dffd16e0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-RegresionPolinomial-Debug-a0bbef5b6f6d6cfb1b01.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-RelajacionGaus-Seidel-Debug-aee0d34bbcfbae09a60b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Secante-Debug-a1551e048023a42fcd83.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Simpson-Debug-62c09f918f8e9781c40a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Trapecio-Debug-e1cca6cd1fb28dc56d70.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Biseccion.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Biseccion.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Biseccion.dir/Raices/Biseccion.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Biseccion.dir/Raices/Biseccion.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Biseccion.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Biseccion.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Biseccion.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Biseccion.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Biseccion.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Biseccion.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Biseccion.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Biseccion.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Biseccion.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Biseccion.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Diferenciacion.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Diferenciacion.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Diferenciacion.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Diferenciacion.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Diferenciacion.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Diferenciacion.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ejercicio3Jacobi.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ejercicio3Jacobi.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ejercicio3Jacobi.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ejercicio3Jacobi.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ejercicio3Jacobi.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ejercicio3Jacobi.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Euler.dir/EcuacionesDiferenciales/Euler.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Euler.dir/EcuacionesDiferenciales/Euler.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Euler.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Euler.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Euler.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Euler.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Euler.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Euler.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Euler.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Euler.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Euler.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Euler.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Euler.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Euler.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Falsi.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Falsi.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Falsi.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Falsi.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Falsi.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Falsi.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Falsi.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Falsi.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Falsi.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Falsi.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Falsi.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Falsi.dir/objects.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Falsi.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Falsi.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Gaus-Seidel.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Gaus-Seidel.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Gaus-Seidel.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Gaus-Seidel.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Gaus-Seidel.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Gaus-Seidel.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Gaus-Seidel.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Gaus-Seidel.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Gaus-Seidel.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Gaus-Seidel.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Gaus-Seidel.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Gaus-Seidel.dir/objects.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Gaus-Seidel.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Gaus-Seidel.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Gaus.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Gaus.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Gaus.dir/Gaus.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Gaus.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Gaus.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Gaus.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Gaus.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Gaus.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Gaus.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Gaus.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Gaus.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Gaus.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Gaus.dir/objects.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Gaus.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Gaus.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Gauss-Legendre.dir/Integracion/Gauss-Legendre.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Gauss-Legendre.dir/Integracion/Gauss-Legendre.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Gauss-Legendre.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Gauss-Legendre.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Gauss-Legendre.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Gauss-Legendre.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Gauss-Legendre.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Gauss-Legendre.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Gauss-Legendre.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Gauss-Legendre.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Gauss-Legendre.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Gauss-Legendre.dir/objects.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Gauss-Legendre.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Gauss-Legendre.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/InterpolacionLagrange.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/InterpolacionLagrange.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Heun.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Heun.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Heun.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Heun.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Heun.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Heun.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/InterpolacionLagrange.dir/Interpolacion/InterpolacionLagrange.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/InterpolacionLagrange.dir/Interpolacion/InterpolacionLagrange.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/InterpolacionLagrange.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/InterpolacionLagrange.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/InterpolacionLagrange.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/InterpolacionLagrange.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/InterpolacionLagrange.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/InterpolacionLagrange.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/InterpolacionLagrange.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/InterpolacionLagrange.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/InterpolacionLagrange.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/InterpolacionLagrange.dir/objects.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/InterpolacionLagrange.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/InterpolacionLagrange.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/InterpolacionSegmentaria.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/InterpolacionSegmentaria.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/InterpolacionSegmentaria.dir/InterpolacionSegmentaria.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/InterpolacionSegmentaria.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/InterpolacionSegmentaria.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/InterpolacionSegmentaria.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/InterpolacionSegmentaria.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/InterpolacionSegmentaria.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/InterpolacionSegmentaria.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/InterpolacionSegmentaria.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/InterpolacionSegmentaria.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/InterpolacionSegmentaria.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/InterpolacionSegmentaria.dir/objects.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/InterpolacionSegmentaria.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/InterpolacionSegmentaria.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Jacobi.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Jacobi.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Jacobi.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Jacobi.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Jacobi.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Jacobi.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Newton_Raphson.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Newton_Raphson.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Newton_Raphson.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Newton_Raphson.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Newton_Raphson.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Newton_Raphson.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PuntoFijo.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PuntoFijo.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PuntoFijo.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PuntoFijo.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PuntoFijo.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PuntoFijo.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PuntoFijo.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PuntoFijo.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PuntoFijo.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PuntoFijo.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PuntoFijo.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PuntoFijo.dir/objects.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PuntoFijo.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PuntoFijo.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PuntoMedio.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PuntoMedio.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PuntoMedio.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PuntoMedio.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PuntoMedio.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PuntoMedio.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RK4.dir/EcuacionesDiferenciales/RK4.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RK4.dir/EcuacionesDiferenciales/RK4.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RK4.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RK4.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RK4.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RK4.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RK4.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RK4.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RK4.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RK4.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RK4.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RK4.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RK4.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RK4.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RegresionPolinomial.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RegresionPolinomial.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RegresionPolinomial.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RegresionPolinomial.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RegresionPolinomial.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RegresionPolinomial.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RegresionPolinomial.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RegresionPolinomial.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RegresionPolinomial.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RegresionPolinomial.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RegresionPolinomial.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RegresionPolinomial.dir/objects.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RegresionPolinomial.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RegresionPolinomial.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RelajacionGaus-Seidel.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RelajacionGaus-Seidel.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RelajacionGaus-Seidel.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RelajacionGaus-Seidel.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RelajacionGaus-Seidel.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RelajacionGaus-Seidel.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RelajacionGaus-Seidel.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RelajacionGaus-Seidel.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RelajacionGaus-Seidel.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RelajacionGaus-Seidel.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RelajacionGaus-Seidel.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RelajacionGaus-Seidel.dir/objects.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RelajacionGaus-Seidel.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RelajacionGaus-Seidel.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Secante.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Secante.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Secante.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Secante.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Secante.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Secante.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Simpson.dir/Integracion/Simpson.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Simpson.dir/Integracion/Simpson.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Simpson.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Simpson.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Simpson.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Simpson.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Simpson.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Simpson.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Simpson.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Simpson.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trapecio.dir/Integracion/Trapecio.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trapecio.dir/Integracion/Trapecio.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trapecio.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trapecio.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trapecio.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trapecio.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trapecio.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trapecio.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trapecio.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Trapecio.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Euler.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Euler.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Falsi.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Falsi.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Gaus-Seidel.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Gaus-Seidel.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Gaus.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Gaus.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Gauss-Legendre.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Gauss-Legendre.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/InterpolacionLagrange.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/InterpolacionLagrange.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/InterpolacionSegmentaria.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/InterpolacionSegmentaria.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Metodos_Numericos.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Metodos_Numericos.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Simpson.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Simpson.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/PuntoFijo.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/PuntoFijo.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/RK4.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/RK4.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/RegresionPolinomial.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/RegresionPolinomial.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/RelajacionGaus-Seidel.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/RelajacionGaus-Seidel.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Trapecio.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Trapecio.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,14 +279,20 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Usuario/OneDrive/Documentos/IUA/Metodos Numericos/Integracion&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;
+    &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\Integracion" />
+      <recent name="C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\Diferenciacion" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos\Interpolacion" />
       <recent name="C:\Users\Usuario\OneDrive\Documentos\IUA\Metodos Numericos" />
@@ -169,6 +314,21 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DiferenciacionTabla" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$/Diferenciacion" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Metodos_Numericos" TARGET_NAME="DiferenciacionTabla" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Metodos_Numericos" RUN_TARGET_NAME="DiferenciacionTabla">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EDOEuler" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$/EcuacionesDiferenciales" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Metodos_Numericos" TARGET_NAME="EDOEuler" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Metodos_Numericos" RUN_TARGET_NAME="EDOEuler">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EDORk4" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$/EcuacionesDiferenciales" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Metodos_Numericos" TARGET_NAME="EDORk4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Metodos_Numericos" RUN_TARGET_NAME="EDORk4">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Ejercicio3Jacobi" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Metodos_Numericos" TARGET_NAME="Ejercicio3Jacobi" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Metodos_Numericos" RUN_TARGET_NAME="Ejercicio3Jacobi">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -184,12 +344,12 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Gaus-Seidel" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Metodos_Numericos" TARGET_NAME="Gaus-Seidel" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Metodos_Numericos" RUN_TARGET_NAME="Gaus-Seidel">
+    <configuration name="Gaus-Seidel" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$/SistemaDeEcuaciones" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Metodos_Numericos" TARGET_NAME="Gaus-Seidel" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Metodos_Numericos" RUN_TARGET_NAME="Gaus-Seidel">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Gaus" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Metodos_Numericos" TARGET_NAME="Gaus" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Metodos_Numericos" RUN_TARGET_NAME="Gaus">
+    <configuration name="Gaus" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$/SistemaDeEcuaciones" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Metodos_Numericos" TARGET_NAME="Gaus" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Metodos_Numericos" RUN_TARGET_NAME="Gaus">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -239,7 +399,7 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegresionPolinomial" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Metodos_Numericos" TARGET_NAME="RegresionPolinomial" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Metodos_Numericos" RUN_TARGET_NAME="RegresionPolinomial">
+    <configuration name="RegresionPolinomial" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$/Regresion" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Metodos_Numericos" TARGET_NAME="RegresionPolinomial" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Metodos_Numericos" RUN_TARGET_NAME="RegresionPolinomial">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -259,7 +419,22 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SimpsonTabla" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$/Integracion" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Metodos_Numericos" TARGET_NAME="SimpsonTabla" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Metodos_Numericos" RUN_TARGET_NAME="SimpsonTabla">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Trapecio" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Metodos_Numericos" TARGET_NAME="Trapecio" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Metodos_Numericos" RUN_TARGET_NAME="Trapecio">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrapecioTabla" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$/Integracion" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Metodos_Numericos" TARGET_NAME="TrapecioTabla" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Metodos_Numericos" RUN_TARGET_NAME="TrapecioTabla">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ejercicio" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$/Integracion" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Metodos_Numericos" TARGET_NAME="ejercicio" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Metodos_Numericos" RUN_TARGET_NAME="ejercicio">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -267,6 +442,10 @@
     <list>
       <item itemvalue="CMake Application.Biseccion" />
       <item itemvalue="CMake Application.Diferenciacion" />
+      <item itemvalue="CMake Application.DiferenciacionTabla" />
+      <item itemvalue="CMake Application.EDOEuler" />
+      <item itemvalue="CMake Application.EDORk4" />
+      <item itemvalue="CMake Application.ejercicio" />
       <item itemvalue="CMake Application.Ejercicio3Jacobi" />
       <item itemvalue="CMake Application.Euler" />
       <item itemvalue="CMake Application.Falsi" />
@@ -285,7 +464,9 @@
       <item itemvalue="CMake Application.RK4" />
       <item itemvalue="CMake Application.Secante" />
       <item itemvalue="CMake Application.Simpson" />
+      <item itemvalue="CMake Application.SimpsonTabla" />
       <item itemvalue="CMake Application.Trapecio" />
+      <item itemvalue="CMake Application.TrapecioTabla" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -321,7 +502,15 @@
       <workItem from="1667682588806" duration="6393000" />
       <workItem from="1667689115202" duration="5000" />
       <workItem from="1667756436503" duration="767000" />
-      <workItem from="1667769561089" duration="3010000" />
+      <workItem from="1667769561089" duration="3611000" />
+      <workItem from="1668266219976" duration="21000" />
+      <workItem from="1669659491251" duration="2798000" />
+      <workItem from="1670016662203" duration="12031000" />
+      <workItem from="1670033241941" duration="1390000" />
+      <workItem from="1670275292393" duration="3441000" />
+      <workItem from="1670293643062" duration="10945000" />
+      <workItem from="1670325726119" duration="19920000" />
+      <workItem from="1670356673071" duration="7942000" />
     </task>
     <servers />
   </component>
